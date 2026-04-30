@@ -1,0 +1,47 @@
+- 目录列表
+	- 知识库
+		- [[工具]]
+			- [[软件工具]]
+			  collapsed:: true
+				- [[Logseq]]
+					- ((69ddc081-58e5-4e53-b2db-b173bc4e3218))
+					- ((69ddcbd6-6390-40b5-a6d6-f8a034c2fcf5))
+					- ((69df0e78-f0e8-429d-b895-0f6797d3de8f))
+					- ((69df11e4-aa9d-414a-802b-15cfeab7396e))
+					- ((69df4737-f5cc-4463-871b-82fa4ec3b09b))
+					- ((69df5b06-8147-426e-b53b-47784553cbef))
+				-
+				- [[Ghostty]]
+				- [[Windows Terminal]]
+			- [[开发工具]]
+				- [[Npm]]
+				- [[IDE]]
+					- [[Eclipse]]
+				- [[逆向工程工具]]
+					- [[dnSpy]]
+			- [[PE 文件工具]]
+				- [[CFF Explorer]]
+		- AI
+		  collapsed:: true
+			- [[Claude Code]]
+				- ((69df6188-9a00-4c1f-84ae-692de2d85620))
+				- ((69ecbb5f-8121-4216-b213-b282822a8b49))
+				- ((69ecc009-18a8-4d71-b32c-5af845b79a08))
+			- [[智普AI]]
+			- [[DeepSeek]]
+			- LLM应用开发平台
+				- [[Dify]]
+		- 系统安全
+			- [[操作系统安全]]
+		- [[.NET]]
+			- [[.NET CLI]]
+				- [[性能计数器 (dotnet-counters)]]
+			- [[桌面应用程序]]
+				- [[Large Address Aware]]
+			- [[GC]]
+			- [[.NET Framework]]
+		- [[任务数据看板]]
+		- [[Tag数据看板]]
+-
+-
+-
