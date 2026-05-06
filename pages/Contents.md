@@ -2,7 +2,6 @@
 	- 知识库
 		- [[工具]]
 			- [[软件工具]]
-			  collapsed:: true
 				- [[Logseq]]
 					- ((69ddc081-58e5-4e53-b2db-b173bc4e3218))
 					- ((69ddcbd6-6390-40b5-a6d6-f8a034c2fcf5))
@@ -32,12 +31,16 @@
 			- LLM应用开发平台
 				- [[Dify]]
 		- 系统安全
+		  collapsed:: true
 			- [[操作系统安全]]
 		- [[.NET]]
+		  collapsed:: true
 			- [[.NET CLI]]
 				- [[性能计数器 (dotnet-counters)]]
 			- [[桌面应用程序]]
 				- [[Large Address Aware]]
+				- [[WinForm]]
+				- [[WPF]]
 			- [[GC]]
 			- [[.NET Framework]]
 		- [[任务数据看板]]
