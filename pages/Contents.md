@@ -1,6 +1,7 @@
 - 目录列表
 	- 知识库
 		- [[工具]]
+		  collapsed:: true
 			- [[软件工具]]
 				- [[Logseq]]
 					- ((69ddc081-58e5-4e53-b2db-b173bc4e3218))
@@ -31,7 +32,6 @@
 			- LLM应用开发平台
 				- [[Dify]]
 		- 系统安全
-		  collapsed:: true
 			- [[操作系统安全]]
 		- [[.NET]]
 		  collapsed:: true
@@ -43,6 +43,11 @@
 				- [[WPF]]
 			- [[GC]]
 			- [[.NET Framework]]
+		- [[React]]
+			- 环境配置
+				- [[NVM]]
+		- [[日常小记]]
+			- [[关于保险]]
 		- [[任务数据看板]]
 		- [[Tag数据看板]]
 -

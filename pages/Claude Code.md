@@ -23,6 +23,18 @@ category:: 软件工具
 	- [榨干 Claude Code 的 16 个实用小技巧（高端玩法，建议收藏！） - Java技术栈 - 博客园](https://www.cnblogs.com/javastack/p/18978280)
 	- [Claude Opus 4.6最强编程王上线，附国内5种使用方法 - 知乎](https://zhuanlan.zhihu.com/p/2003109863224541216)
 	- [Claude Code 教程 | 菜鸟教程](https://www.runoob.com/claude-code/claude-code-tutorial.html)
+	- 安装命令
+		- ```powershell
+		  // 安装特定版本
+		  npm install -g @anthropic-ai/claude-code@2.1.123
+		  
+		  // 查看版本号
+		  claude -v
+		  
+		  
+		  ```
+		- 参考
+			- ((69fd4489-9603-4db3-98b3-b40669f3d928))
 -
 - # 命令和快捷键
 	- ## PowerShell 命令
@@ -79,4 +91,6 @@ category:: 软件工具
 			- [dotnet-skills by Aaronontheweb - SourcePulse](https://www.sourcepulse.org/projects/24075074)
 	-
 -
--
+- # 相关参考
+	- [Claude Code 安装 - 快速开始 | Claude Code 中文站](https://claude-zh.cn/guide/getting-started)
+	  id:: 69fd4489-9603-4db3-98b3-b40669f3d928
