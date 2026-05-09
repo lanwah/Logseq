@@ -24,6 +24,22 @@ category:: 开发工具
 		  npm install -g npm@<具体版本号>
 		  // 升级到最新版本
 		  npm install -g npm@latest
+		  
+		  // 查看某个包是否已安装
+		  npm list <包名>
+		  // 例如
+		  npm list react-router-dom
+		  // 查看所有依赖的树状结构
+		  npm list --depth=0
+		  
+		  // 安装目前最新的稳定版本
+		  npm install <包名>
+		  // 例如
+		  npm install react-router-dom
+		  # 安装最新的 v6 版本
+		  npm install react-router-dom@6
+		  // 查看所有可用版本
+		  npm view react-router-dom versions
 		  ```
 	- ## Npm 配置
 		- 语法格式
