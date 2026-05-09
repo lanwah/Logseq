@@ -21,13 +21,13 @@
 			- [[PE 文件工具]]
 				- [[CFF Explorer]]
 		- AI
-		  collapsed:: true
 			- [[Claude Code]]
 				- ((69df6188-9a00-4c1f-84ae-692de2d85620))
 				- ((69ecbb5f-8121-4216-b213-b282822a8b49))
 				- ((69ecc009-18a8-4d71-b32c-5af845b79a08))
 			- [[智普AI]]
 			- [[DeepSeek]]
+			- [[RTK]]
 			- LLM应用开发平台
 				- [[Dify]]
 		- 系统安全
