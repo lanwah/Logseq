@@ -1,5 +1,6 @@
 public:: true
-tags:: React
+tags:: React, Npm 
+category:: 开发工具
 
 - # 介绍
 	- Node.js 是一个基于 **Chrome V8 JavaScript 引擎** 构建的**开源服务器端 JavaScript 运行时环境**，由 Ryan Dahl 于 2009 年创建。它采用**事件驱动、非阻塞 I/O 模型**，使其轻量高效，尤其适合数据密集型实时应用和高并发场景。
@@ -36,6 +37,11 @@ tags:: React
 	  
 	  // 查看安装位置，cmd 中用 where node
 	  gcm node
+	  
+	  // 看全局安装的 npm 包
+	  npm list -g --depth=0
+	  // 或者简写：
+	  npm ls -g --depth=0
 	  ```
 - # 主要应用场景
 	- ## Web 服务器与 API 开发

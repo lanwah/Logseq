@@ -75,6 +75,16 @@ category:: 开发工具
 	  
 	  // 卸载指定版本
 	  nvm uninstall 16.20.2
+	  
+	  // 把当前 Node 版本的 npm 更新到与之兼容的最新版。
+	  nvm install-latest-npm
+	  
+	  nvm install --lts          # 安装最新 LTS 版本
+	  nvm install 26.0.0         # 安装指定版本
+	  nvm use 24.15.0            # 切换到 v24.15.0
+	  nvm alias default 24.15.0  # 设置默认版本
+	  nvm list                   # 查看本地已安装的版本
+	  nvm current                # 查看当前使用的版本
 	  ```
 	- ![image.png](../assets/image_1778202915919_0.png){:height 593, :width 749}
 -
