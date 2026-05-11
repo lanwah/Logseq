@@ -46,6 +46,7 @@ refrence:: [[Logseq]]， [[Logseq模板]]
 	  |tiny|Block|记录生活中的一些小细节|
 	  |imperfect|Block|暂无解决办法的内容|
 	  |delightful|Block|令人高兴的事情|
+	  |pending|Block|待整理的内容|
 -
 -
 - # 相关参考

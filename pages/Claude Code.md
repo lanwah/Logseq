@@ -94,3 +94,5 @@ category:: 软件工具
 - # 相关参考
 	- [Claude Code 安装 - 快速开始 | Claude Code 中文站](https://claude-zh.cn/guide/getting-started)
 	  id:: 69fd4489-9603-4db3-98b3-b40669f3d928
+	- [Claude Code 最强配置清单：七个高效开源工具，让 AI 编程从“能用”变成“好用”​！！！](https://mp.weixin.qq.com/s/WRE1pvGvlSVYT3VIkYYc3g) #pending
+-
