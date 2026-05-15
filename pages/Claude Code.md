@@ -78,7 +78,22 @@ category:: 软件工具
 		- [jarrodwatts/claude-hud: A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress](https://github.com/jarrodwatts/claude-hud)
 		- [Claude HUD：给你的 Claude Code 装一块「仪表盘」为什么需要 Claude HUD？ 如果你已经在用 - 掘金](https://juejin.cn/post/7618239540528758838)
 		- [给claudecode装上状态栏，效率起飞！claude-hud插件完全解析-CSDN博客](https://blog.csdn.net/qq_60735796/article/details/158208616)
--
+- # 模型
+	- Claude Code settings.json 配置文件中配置的模型信息：
+		- ANTHROPIC_MODEL
+		  > 它用于设置Claude Code在大部分常规任务中使用的默认模型。这项配置会覆盖Claude内部许多默认使用Sonnet模型的场景。
+		- ANTHROPIC_DEFAULT_HAIKU_MODEL
+		  > 简单任务 (例如, Bash, Edit): 默认使用 Haiku 模型。它响应快、成本低，适合处理基础操作。
+		- ANTHROPIC_DEFAULT_SONNET_MODEL
+		  > 常规任务 (例如, Read, Grep): 默认使用 Sonnet 模型。它在性能和速度之间取得了很好的平衡，是处理大多数任务的“主力”模型。
+		- ANTHROPIC_DEFAULT_OPUS_MODEL
+		  > 复杂任务 (例如, Write, MultiEdit): 当任务涉及大型重构、复杂逻辑推理、多文件编辑、架构设计或生成详细方案时，Claude Code 会自动调用 Opus 模型，以保证代码质量和一次性成功率。
+		  Opus是Claude系列中最强大、最智能的模型，用于解决极其复杂的问题。
+		- Claude Code 会根据任务的复杂程度，智能地选择模型，大致遵循以下规则：
+			- 简单任务 (例如, Bash, Edit): 默认使用 Haiku 模型。它响应快、成本低，适合处理基础操作。
+			- 常规任务 (例如, Read, Grep): 默认使用 Sonnet 模型。它在性能和速度之间取得了很好的平衡，是处理大多数任务的“主力”模型。
+			- 复杂任务 (例如, Write, MultiEdit): 当任务涉及大型重构、复杂逻辑推理、多文件编辑、架构设计或生成详细方案时，Claude Code 会自动调用 Opus 模型，以保证代码质量和一次性成功率。
+			- 因此，你并不需要为每一次对话都手动指定使用 Opus 模型。
 - # Skills
 	- ## 安装和使用
 		- [【claude】Claude Skills 实战指南：从安装到自定义 - 甲枫 - 博客园](https://www.cnblogs.com/jiafeng1323/p/19561565)
@@ -89,10 +104,12 @@ category:: 软件工具
 			- [.NET Agent Skills: How AI Coding Agents Get Domain Expertise - Uno Platform](https://platform.uno/articles/dotnet-agent-skills-ai-coding-agents/#elementor-toc__heading-anchor-0)
 		- [Aaronontheweb/dotnet-skills: Claude Code skills and sub-agents for .NET Developers](https://github.com/Aaronontheweb/dotnet-skills/tree/master)
 			- [dotnet-skills by Aaronontheweb - SourcePulse](https://www.sourcepulse.org/projects/24075074)
-	-
+	- ## 自定义技能
+		- [[code-downloader]]
 -
 - # 相关参考
 	- [Claude Code 安装 - 快速开始 | Claude Code 中文站](https://claude-zh.cn/guide/getting-started)
 	  id:: 69fd4489-9603-4db3-98b3-b40669f3d928
 	- [Claude Code 最强配置清单：七个高效开源工具，让 AI 编程从“能用”变成“好用”​！！！](https://mp.weixin.qq.com/s/WRE1pvGvlSVYT3VIkYYc3g) #pending
+	- [为 C#/.NET 打造的13条 CLAUDE.md：让 AI 不再写“新手代码”](https://mp.weixin.qq.com/s/Ko_UjuI1ev3mPWM51nwv_Q) #pending
 -

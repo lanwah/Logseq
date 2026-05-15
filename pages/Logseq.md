@@ -1,7 +1,15 @@
 tags:: 日志，知识库，GitHub开源项目，软件工具
+license:: AGPL-3.0
 category:: 软件工具
 
 -
+- # 开源信息
+	- **开源平台：** GitHub
+	- **项目名称：** logseq
+	- **使用协议：** AGPL-3.0 license
+	- **开源地址：** ((69f307c0-1e61-4f88-86f2-33e331abf3dc))
+- # 项目介绍
+	- Logseq是一款基于Markdown的双向链接笔记应用，它不仅提供了简洁易用的界面和丰富的功能，还保持了轻量级的特点。与传统的笔记工具相比，Logseq引入了许多现代化的功能特性，如双向链接、块引用等。
 - # 软件目录结构
 	- Logseq 目录下的 `journals`、`pages` 和 `logseq` 这三个文件夹的作用。
 	  id:: 69d5c12f-13c3-4cfc-97fb-c850b2248b75
@@ -17,6 +25,7 @@ category:: 软件工具
 	- [首页 - Logseq: A privacy-first, open-source knowledge base](https://logseq.com/)
 	- [下载 - Logseq: A privacy-first, open-source knowledge base](https://logseq.com/downloads)
 	- [GitHub - Logseq](https://github.com/logseq)
+	  id:: 69f307c0-1e61-4f88-86f2-33e331abf3dc
 	- [文档 - contents](https://docs.logseq.com/#/page/contents)
 	- [入门 - tutorial](https://docs.logseq.com/#/page/tutorial)
 -
@@ -36,6 +45,11 @@ category:: 软件工具
 		  |Alt + Shift + ↓|向下移动块||
 		  |Tab|向右缩进（成为子块）||
 		  |Shift + Tab|向左缩进（成为父块）||
+		  |Ctrl + C|复制||
+		  |Ctrl + Shift + C|复制选中的文本||
+		  |Ctrl + V|粘贴||
+		  |Ctrl + Shift + V|粘贴为纯文本||
+		  ||||
 		- 字母快捷键
 			- #+BEGIN_TIP
 			  字母快捷键的输入必须在==非输入模式下==（无光标的时候）输入。
@@ -95,4 +109,5 @@ category:: 软件工具
 	  id:: 69e0bcc4-c643-4b17-8eb7-59c6e1ad97eb
 	- [10.页属性、块属性、query 的玩法 - 知乎](https://zhuanlan.zhihu.com/p/673835262)
 	  id:: 69e0bcee-b18f-4bc2-addb-eecdb454f804
+	- [Logseq简介：构建个人知识库的高效工具 - Awesome Top 中文社区](https://awesometop.cn/posts/6412e6fcdd5e4f1bac1399a4442db48f)
 -

@@ -1,0 +1,3 @@
+-
+- # 相关参考
+	- [2026 年 .NET 客户端常用 MVVM 框架推荐（附带使用情况投票）](https://mp.weixin.qq.com/s/OwK-NPRd3BZQrJyqGdIGcw) #pending

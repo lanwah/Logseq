@@ -58,3 +58,10 @@ category:: 开发工具
 - # 相关参考
 	- [unable to verify the first certificate 原因及解决方法 - 简书](https://www.jianshu.com/p/def279a1d2c3)
 	  id:: 69fe9a16-6e50-4edd-8efb-939cae1946c1
+	- [npm | Home](https://www.npmjs.com/)
+	- [npm search](https://www.npmjs.com/search?q=react)
+	- [前端技术选型时有用的网站 - 饭特稠 - 博客园](https://www.cnblogs.com/imgss/p/18183877)
+		- [Bundlephobia | Size of npm dependencies](https://bundlephobia.com/)
+		- [Smart Npm Package Comparison with AI Insights](https://npm-compare.com/)
+-
+-
