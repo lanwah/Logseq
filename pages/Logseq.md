@@ -96,7 +96,13 @@ category:: 软件工具
 		- [[Logseq任务优先级]]
 		  id:: 69df5b06-8147-426e-b53b-47784553cbef
 	-
--
+- # 插件推荐
+	- 常用插件推荐
+	  |插件名称|功能|
+	  |--|--|
+	  |Markdown Table Editor|Markdown表格插件|
+	  |Tags|标签插件|
+	  |Bullet Threading|标题连线插件|
 -
 - # 使用参考
 	- [Logseq本地部署完整指南：轻松搭建个人知识库系统 | WMW](https://watermelonwater.tech/insights/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2logseq%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93/)
