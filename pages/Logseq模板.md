@@ -13,14 +13,14 @@ refrence:: [[Logseq]]，[[Logseq属性]]
 	- 输入 `/template` 后选择模板名称以使用模板
 -
 - # 在用模板
-	- 天气信息模板
+	- **天气信息模板**
 	  template:: 天气信息模板
 	  template-including-parent:: false
 		- 天气信息
 			- 农历三月二十七，星期二。
 			- 天气雨，温度15-28度，1级西风281°湿度89%，气压1003百帕。
 		- <待补充>
-	- 钓鱼情况模板
+	- **钓鱼情况模板**
 	  template:: 钓鱼情况模板
 	  template-including-parent:: false
 		- 今日钓鱼情况
@@ -28,5 +28,15 @@ refrence:: [[Logseq]]，[[Logseq属性]]
 			- #+BEGIN_TIP
 			  垂钓建议：<待补充>
 			  #+END_TIP
--
+	- **开源项目模版**
+	  template:: 开源项目模版
+	  template-including-parent:: false
+		- # 开源信息
+			- **开源平台：** GitHub/Gitee
+			- **项目名称：**
+			- **使用协议：** MIT license
+			- **开源地址：**
+		- # 项目介绍
+			- <待补充>
+		-
 - dfasdfasdfasfs

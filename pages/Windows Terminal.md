@@ -1,10 +1,17 @@
 tags:: 终端工具， Windows， GitHub开源项目
 category:: 软件工具
 
--
+- # 开源信息
+	- **开源平台：** GitHub
+	- **项目名称：** terminal
+	- **使用协议：** MIT license
+	- **开源地址：** ((6a0728b8-0c2e-4d2c-bedc-8ef14ec8b393))
+- # 项目介绍
+	- Windows 终端是你喜欢的命令行 shell 的新式主机应用程序，如命令提示符、PowerShell 和 bash（通过适用于 Linux 的 Windows 子系统（WSL））。 其主要功能包括多个选项卡、窗格、Unicode 和 UTF-8 字符支持、GPU 加速文本呈现引擎，以及创建自己的主题并自定义文本、颜色、背景和快捷方式的功能。
 - # 项目信息
-	- [microsoft/terminal: The new Windows Terminal and the original Windows console host, all in the same place!](https://github.com/microsoft/terminal)
-	- [Windows 终端概述 | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/terminal/)
+	- ((6a07f950-3d1b-42d3-8833-fa4eb7983027))
+	  id:: 6a0728b8-0c2e-4d2c-bedc-8ef14ec8b393
+	- ((6a07f96e-58d9-4447-a9c9-95a5b5307149))
 -
 - # 主题&样式
 	- ## Oh My Posh
@@ -30,6 +37,11 @@ category:: 软件工具
 	  |Alt + Enter|全屏/窗口模式切换|
 	-
 - # 相关参考
+	- [GitHub：microsoft/terminal](https://github.com/microsoft/terminal)
+	  id:: 6a07f950-3d1b-42d3-8833-fa4eb7983027
+	  > The new Windows Terminal and the original Windows console host, all in the same place!
+	- [Windows 终端概述 | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/terminal/)
+	  id:: 6a07f96e-58d9-4447-a9c9-95a5b5307149
 	- [Window Terminal 安装以及使用(2021最新) - 知乎](https://zhuanlan.zhihu.com/p/351281543)
 	- [Windows Terminal 完整指南\_winterminal-CSDN博客](https://blog.csdn.net/freeking101/article/details/117767267)
 	- [「Windows」别再用 CMD 了！换成 Windows Terminal + Powershell 7!](https://www.taurusxin.com/windows-terminal/)

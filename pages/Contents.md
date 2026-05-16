@@ -1,7 +1,6 @@
 - 目录列表
 	- 知识库
 		- [[工具]]
-		  collapsed:: true
 			- [[软件工具]]
 				- [[Logseq]]
 				  collapsed:: true
@@ -14,11 +13,13 @@
 				- [[版本管理]]
 					- [[SVN]]
 				- [[Ghostty]]
-				- [[Windows Terminal]]
+				- [[终端工具]]
+					- [[Windows]]
+						- [[Windows Terminal]]
+						- [[CMD]]
+						- [[PowerShell]]
+					-
 			- [[开发工具]]
-			  collapsed:: true
-				- [[IDE]]
-					- [[Eclipse]]
 				- [[逆向工程工具]]
 					- [[dnSpy]]
 			- [[PE 文件工具]]
@@ -42,7 +43,6 @@
 		- 系统安全
 			- [[操作系统安全]]
 		- [[.NET]]
-		  collapsed:: true
 			- [[.NET CLI]]
 				- [[性能计数器 (dotnet-counters)]]
 			- [[桌面应用程序]]
@@ -61,8 +61,10 @@
 					- [[NVM]]
 				- [[Npm]]
 		- [[IDE]]
+			- [[Visual Studio]]
 			- [[VS Code]]
 			- [[Cursor]]
+			- [[Eclipse]]
 		- [[日常小记]]
 			- [[关于保险]]
 		- [[任务数据看板]]

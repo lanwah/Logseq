@@ -1,4 +1,4 @@
-tags:: AI
+tags:: IDE, AI, VS Code, React, C# 
 category:: AI编程工具
 
 - # 介绍

@@ -1,4 +1,7 @@
-# 快捷键
+tags:: IDE, React, C#
+category:: 开发工具
+
+- # 快捷键
 	- 常用的 VS Code 快捷键：
 	  |快捷键|功能|
 	  |--|--|
