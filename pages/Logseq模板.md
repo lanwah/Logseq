@@ -17,7 +17,7 @@ refrence:: [[Logseq]]，[[Logseq属性]]
 	  template:: 天气信息模板
 	  template-including-parent:: false
 		- 天气信息
-			- 农历三月二十七，星期二。
+			- 农历四月初二，星期一。
 			- 天气雨，温度15-28度，1级西风281°湿度89%，气压1003百帕。
 		- <待补充>
 	- **钓鱼情况模板**

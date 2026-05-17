@@ -1,6 +1,9 @@
 public:: true
-tags:: 知识库
+tags:: Web, JavaScript, JavaScript库
 
+- # 介绍
+	- 简单来说，React 是一个用于构建**用户界面**的 **JavaScript 库**。它由 Facebook 开发并开源，现在已经成为前端开发领域最流行的工具之一。
+	- 它的核心思想可以概括为：**“声明式地描述 UI，React 负责高效地渲染和更新。”**
 - # 环境配置
 	- [[Node.js]] 安装与配置
 		- ((5a7198cb-9b74-47cb-b071-7094bbd2c330))
@@ -13,6 +16,8 @@ tags:: 知识库
 	  |CSR|（Client-Side Rendering）客户端渲染|
 	  |CRA|（Create React App）传统创建React项目的命令方式|
 	  |HMR|热模块替换|
+	  |SPA|（Single Page Application）单页应用|
+	-
 - # 命令与使用
 	- ## 通过 Vite 创建项目
 		- ```powershell

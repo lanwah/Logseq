@@ -1,6 +1,7 @@
 - 目录列表
 	- 知识库
 		- [[工具]]
+		  collapsed:: true
 			- [[软件工具]]
 				- [[Logseq]]
 				  collapsed:: true
@@ -25,6 +26,7 @@
 			- [[PE 文件工具]]
 				- [[CFF Explorer]]
 		- AI
+		  collapsed:: true
 			- [[Claude Code]]
 			  collapsed:: true
 				- ((69df6188-9a00-4c1f-84ae-692de2d85620))
@@ -41,8 +43,10 @@
 				- 自定义Skills
 					- [[code-downloader]]
 		- 系统安全
+		  collapsed:: true
 			- [[操作系统安全]]
 		- [[.NET]]
+		  collapsed:: true
 			- [[.NET CLI]]
 				- [[性能计数器 (dotnet-counters)]]
 			- [[桌面应用程序]]
@@ -54,12 +58,12 @@
 				- [[Semantic Kernel]]
 			- [[GC]]
 			- [[.NET Framework]]
-		- [[React]]
-		  collapsed:: true
-			- 环境配置
-				- [[Node.js]]
-					- [[NVM]]
-				- [[Npm]]
+		- [[Web]]
+			- [[React]]
+				- 环境配置
+					- [[Node.js]]
+						- [[NVM]]
+					- [[Npm]]
 		- [[IDE]]
 			- [[Visual Studio]]
 			- [[VS Code]]
@@ -67,6 +71,7 @@
 			- [[Eclipse]]
 		- [[日常小记]]
 			- [[关于保险]]
+			- [[钓鱼信息]]
 		- [[任务数据看板]]
 		- [[Tag数据看板]]
 -
