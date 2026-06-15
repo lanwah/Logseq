@@ -1,7 +1,7 @@
 - 目录列表
 	- 知识库
 		- [[工具]]
-		  collapsed:: true
+			- [[推荐工具]]
 			- [[软件工具]]
 				- [[Logseq]]
 				  collapsed:: true
@@ -15,6 +15,7 @@
 					- [[SVN]]
 				- [[Ghostty]]
 				- [[终端工具]]
+				  collapsed:: true
 					- [[Windows]]
 						- [[Windows Terminal]]
 						- [[CMD]]
@@ -25,15 +26,18 @@
 					- [[dnSpy]]
 			- [[PE 文件工具]]
 				- [[CFF Explorer]]
+			- [[待整理]]
+				- [[OFD]]
 		- AI
-		  collapsed:: true
 			- [[Claude Code]]
 			  collapsed:: true
 				- ((69df6188-9a00-4c1f-84ae-692de2d85620))
 				- ((69ecbb5f-8121-4216-b213-b282822a8b49))
 				- ((69ecc009-18a8-4d71-b32c-5af845b79a08))
+			- [[Cursor]]
 			- [[智普AI]]
 			- [[DeepSeek]]
+			- [[Agnes AI]]
 			- [[RTK]]
 			- LLM应用开发平台
 				- [[Dify]]
@@ -42,11 +46,11 @@
 			- Skills
 				- 自定义Skills
 					- [[code-downloader]]
+			- [[CC Switch]]
 		- 系统安全
 		  collapsed:: true
 			- [[操作系统安全]]
 		- [[.NET]]
-		  collapsed:: true
 			- [[.NET CLI]]
 				- [[性能计数器 (dotnet-counters)]]
 			- [[桌面应用程序]]
@@ -58,20 +62,40 @@
 				- [[Semantic Kernel]]
 			- [[GC]]
 			- [[.NET Framework]]
+			- [[开发技术]]
+				-
 		- [[Web]]
 			- [[React]]
 				- 环境配置
 					- [[Node.js]]
 						- [[NVM]]
 					- [[Npm]]
+					- [[Nrm]]
+					- [[Npx]]
+					- [[Yarn]]
+				- [[useState]]
+			- [[浏览器]]
+				- [[谷歌浏览器]]
+			- [[JavaScript]]
+				- [[JSDoc]]
+			- [[UI组件]]
+				- [[Ant Design]]
 		- [[IDE]]
 			- [[Visual Studio]]
 			- [[VS Code]]
-			- [[Cursor]]
+				- [[Cursor]]
 			- [[Eclipse]]
+			- [[Android Studio]]
+		- [[开发助手]]
+			- [[GitHub Copilot]]
+		- [[消息服务]]
+			- [[ActiveMQ]]
 		- [[日常小记]]
 			- [[关于保险]]
 			- [[钓鱼信息]]
+		- [[学习]]
+		- [[原型设计]]
+			- [[Figma]]
 		- [[任务数据看板]]
 		- [[Tag数据看板]]
 -

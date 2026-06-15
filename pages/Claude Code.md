@@ -94,6 +94,8 @@ category:: 软件工具
 			- 常规任务 (例如, Read, Grep): 默认使用 Sonnet 模型。它在性能和速度之间取得了很好的平衡，是处理大多数任务的“主力”模型。
 			- 复杂任务 (例如, Write, MultiEdit): 当任务涉及大型重构、复杂逻辑推理、多文件编辑、架构设计或生成详细方案时，Claude Code 会自动调用 Opus 模型，以保证代码质量和一次性成功率。
 			- 因此，你并不需要为每一次对话都手动指定使用 Opus 模型。
+	- ## 接入DeepSeek
+		- 参考 [[DeepSeek]] 中： ((6a0d0665-b366-44b2-930c-02b6c909e266)) 章节。
 - # Skills
 	- ## 安装和使用
 		- [【claude】Claude Skills 实战指南：从安装到自定义 - 甲枫 - 博客园](https://www.cnblogs.com/jiafeng1323/p/19561565)
@@ -106,10 +108,17 @@ category:: 软件工具
 			- [dotnet-skills by Aaronontheweb - SourcePulse](https://www.sourcepulse.org/projects/24075074)
 	- ## 自定义技能
 		- [[code-downloader]]
+- # 学习推荐网站
+	- ((6a1f7871-72ee-4555-8881-d33a172adb19))
+- # 动态/新闻
+	- ((6a2a087a-b16d-4d4a-8110-172902229e4e))
 -
 - # 相关参考
 	- [Claude Code 安装 - 快速开始 | Claude Code 中文站](https://claude-zh.cn/guide/getting-started)
 	  id:: 69fd4489-9603-4db3-98b3-b40669f3d928
 	- [Claude Code 最强配置清单：七个高效开源工具，让 AI 编程从“能用”变成“好用”​！！！](https://mp.weixin.qq.com/s/WRE1pvGvlSVYT3VIkYYc3g) #pending
 	- [为 C#/.NET 打造的13条 CLAUDE.md：让 AI 不再写“新手代码”](https://mp.weixin.qq.com/s/Ko_UjuI1ev3mPWM51nwv_Q) #pending
+	- 动态/新闻
+		- [Claude Fable 5正式发布 - 王者归航。](https://mp.weixin.qq.com/s/MY6dhYVvRDeoZh-KQLet3Q)
+		  id:: 6a2a087a-b16d-4d4a-8110-172902229e4e
 -

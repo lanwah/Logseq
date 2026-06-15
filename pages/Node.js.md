@@ -1,5 +1,5 @@
 public:: true
-tags:: React, Npm 
+tags:: React, Npm, Nrm, Npx
 category:: 开发工具
 
 - # 介绍

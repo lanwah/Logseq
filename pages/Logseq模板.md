@@ -17,8 +17,8 @@ refrence:: [[Logseq]]，[[Logseq属性]]
 	  template:: 天气信息模板
 	  template-including-parent:: false
 		- 天气信息
-			- 农历四月初二，星期一。
-			- 天气雨，温度15-28度，1级西风281°湿度89%，气压1003百帕。
+			- 农历四月二十三，星期一。
+			- 天气多云，温度20-27度，1级东北风37°，阵风3米/秒，湿度76%，气压1013百帕。
 		- <待补充>
 	- **钓鱼情况模板**
 	  template:: 钓鱼情况模板
@@ -38,5 +38,9 @@ refrence:: [[Logseq]]，[[Logseq属性]]
 			- **开源地址：**
 		- # 项目介绍
 			- <待补充>
-		-
-- dfasdfasdfasfs
+	- **月生活费结算模板**
+	  template:: 月生活费结算模板
+	  template-including-parent:: false
+		- 月生活费结算信息：总消费：**1519**，媳妇报销金额：**194**，个人实际消费：**1325**。月消费预算：**1000**，超出预算：**325**，结余/后补费用： <span style="color:red;font-weight:bold;">-300</span>（从生活费中支出**300**）。
+-
+-

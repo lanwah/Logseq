@@ -44,4 +44,15 @@ tags:: Web, JavaScript, JavaScript库
 		- #+BEGIN_IMPORTANT
 		  但官方现已推荐 Vite 用于非 SSR 项目，因为 CRA 较慢且维护不活跃。
 		  #+END_IMPORTANT
+- # Skills
+	- ## [[React 异步]]
+- # 学习
+	- ## [[React Hook]]
+		- [[useState]]
+- # 相关参考
+	- [React 官方中文文档](https://zh-hans.react.dev/)
+	- [快速入门 – React 中文文档](https://zh-hans.react.dev/learn)
+	- [React 参考总览 – React 中文文档](https://zh-hans.react.dev/reference/react)
+	- [React 内置 Hook – React 中文文档](https://zh-hans.react.dev/reference/react/hooks)
+	- [React 版本 – React 中文文档](https://zh-hans.react.dev/versions)
 -
