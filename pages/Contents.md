@@ -4,13 +4,13 @@
 			- [[推荐工具]]
 			- [[软件工具]]
 				- [[Logseq]]
-				  collapsed:: true
 					- ((69ddc081-58e5-4e53-b2db-b173bc4e3218))
 					- ((69ddcbd6-6390-40b5-a6d6-f8a034c2fcf5))
 					- ((69df0e78-f0e8-429d-b895-0f6797d3de8f))
 					- ((69df11e4-aa9d-414a-802b-15cfeab7396e))
 					- ((69df4737-f5cc-4463-871b-82fa4ec3b09b))
 					- ((69df5b06-8147-426e-b53b-47784553cbef))
+					- ((6a523e06-a037-4bda-9f47-513ca022f655))
 				- [[版本管理]]
 					- [[SVN]]
 				- [[Ghostty]]
@@ -29,13 +29,18 @@
 			- [[待整理]]
 				- [[OFD]]
 		- AI
-			- [[Claude Code]]
-			  collapsed:: true
-				- ((69df6188-9a00-4c1f-84ae-692de2d85620))
-				- ((69ecbb5f-8121-4216-b213-b282822a8b49))
-				- ((69ecc009-18a8-4d71-b32c-5af845b79a08))
-			- [[Cursor]]
+			- [[Agent]]
+				- [[Claude Code]]
+					- ((69df6188-9a00-4c1f-84ae-692de2d85620))
+					- ((69ecbb5f-8121-4216-b213-b282822a8b49))
+					- ((69ecc009-18a8-4d71-b32c-5af845b79a08))
+				- [[Cursor]]
+				- [[Codex]]
+					- [[CodexPlusPlus]]
 			- [[智普AI]]
+			- [[OpenAI]]
+				- [[ChatGPT]]
+				- [[Codex]]
 			- [[DeepSeek]]
 			- [[Agnes AI]]
 			- [[RTK]]
@@ -43,12 +48,19 @@
 				- [[Dify]]
 			- [[Vibe Coding]]
 				- [[vibe-coding-cn]]
-			- Skills
+			- [[Skill]]
 				- 自定义Skills
 					- [[code-downloader]]
+			- [[Rule]]
+				- [[aidlc-workflows]]
 			- [[CC Switch]]
+			- [[Hook]]
+			- [[开源项目]]
+				- [[Agent Reach]]
+				- [[wechat-claude-code]]
+			- [[开发技术]]
+				- [[ONNX]]
 		- 系统安全
-		  collapsed:: true
 			- [[操作系统安全]]
 		- [[.NET]]
 			- [[.NET CLI]]
@@ -60,10 +72,16 @@
 			- [[MVVM]]
 			- [[AI]]
 				- [[Semantic Kernel]]
+				- [[MAF]]
 			- [[GC]]
 			- [[.NET Framework]]
 			- [[开发技术]]
-				-
+				- [[文件处理]]
+					- [[PDF]]
+			- [[AOT]]
+			- [[更新]]
+				- [[.NET10/C#14]]
+				- [[.NET11/C#15]]
 		- [[Web]]
 			- [[React]]
 				- 环境配置
@@ -81,11 +99,15 @@
 			- [[UI组件]]
 				- [[Ant Design]]
 		- [[IDE]]
+		  collapsed:: true
 			- [[Visual Studio]]
 			- [[VS Code]]
 				- [[Cursor]]
 			- [[Eclipse]]
 			- [[Android Studio]]
+		- [[跨平台]]
+			- [[Avalonia]]
+		- [[国产化]]
 		- [[开发助手]]
 			- [[GitHub Copilot]]
 		- [[消息服务]]
@@ -96,6 +118,8 @@
 		- [[学习]]
 		- [[原型设计]]
 			- [[Figma]]
+		- [[后台管理系统]]
+			- [[XiHan.BasicApp]]
 		- [[任务数据看板]]
 		- [[Tag数据看板]]
 -

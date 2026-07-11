@@ -16,6 +16,7 @@ category:: 开发工具
 	  |Ctrl + Shift + P|显示并运行命令|
 	  |Ctrl + K，Ctrl + P|打开快捷键设置|
 	  |Ctrl + G|转到指定的行号|
+	  |Ctrl + T|查找所有符号|
 	-
 	-
 - # 推荐插件

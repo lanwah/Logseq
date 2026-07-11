@@ -49,6 +49,8 @@ tags:: Web, JavaScript, JavaScript库
 - # 学习
 	- ## [[React Hook]]
 		- [[useState]]
+		- [useState – React 中文文档](https://zh-hans.react.dev/reference/react/useState)
+		- [useReducer – React 中文文档](https://zh-hans.react.dev/reference/react/useReducer)
 - # 相关参考
 	- [React 官方中文文档](https://zh-hans.react.dev/)
 	- [快速入门 – React 中文文档](https://zh-hans.react.dev/learn)

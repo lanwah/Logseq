@@ -29,6 +29,8 @@ category:: AI编程工具
 	  |--|--|
 	  |Shift + Table|切换Agent模式|
 	  |Ctrl + M, Ctrl + S|打开键盘快捷键|
+	  |Ctrl + T|新建聊天窗口|
+	  |Ctrl + F4|关闭聊天窗口|
 - # 授权
 	- ## 全局配置
 		- 用户目录下：.cursor\cli-config.json

@@ -4,16 +4,42 @@ tags:: 知识库
 - # 官方网站
 	- ((69f16849-fa90-48d5-bfbc-8f53569a58f0))
 - # .NET&CSharp版本
-	- [[.NET10/C#14]]
-	- [[.NET11/C#15]]
+	- {{embed ((6a33446f-2b88-4945-888e-1fa8e84b5e95))}}
+	-
+- # [[ASP.NET Core]]
+	- {{embed ((6a39d500-5edd-4d13-a8d7-9bd85d4b2f38))}}
 - # AI
 	- [[.NET AI技术选型]]
+	- ## [[MAF]]
+		- {{embed ((6a39d5fd-76e7-40b4-95d8-8e888c964d1d))}}
+	- ## [[Semantic Kernel]]
+		- {{embed ((6a027ebd-3d15-4fbf-aed8-e48f61809084))}}
+	- ## [[Kimi]]
+		- [在 .NET 中使用 Moonshot Kimi + AgentFramework：从 SDK 到 Agent 的完整实践 - View12138 - 博客园](https://www.cnblogs.com/view12138/p/19831463)
+- # [[通信]]
+	- ## [[Http/Https]]
+		- {{embed ((6a39dbea-ece6-4ed7-979f-357b6c9479be))}}
+- # [[桌面应用程序]]
+	- [[WinForm]]
+	- [[WPF]]
+- # 开发技术
+	- ## 序列化/反序列化
+		- [.NET 高级开发 | .NET 中的序列化和反序列化 - 痴者工良 - 博客园](https://www.cnblogs.com/whuanle/p/19828051) #[[ASP.NET Core]] #System.Text.Json
+	- ## [[线程/多线程]]
+		- [C# Thread类的创建与生命周期管理详解：从入门到实战](https://mp.weixin.qq.com/s/2v-suI7q8-Tg_1Tt9zgqJQ)
+		- 项目实战
+			- [设备监控系统的异步任务队列设计——从单线程到生产级方案](https://mp.weixin.qq.com/s/JCepPNc8_0Y5NbawRBDYZA)
+	- ## 源代码生成器
+		- [告别配置地狱：用 C# Source Generators 让 JSON 配置文件"活"起来](https://mp.weixin.qq.com/s/M0u5p7A1RZVcMG1nAmfJdg)
+- # 机器视觉
+	- [别再瞎调相机了！用 C# + OpenCV 搞定单目视觉定位：从棋盘格标定到 ArUco 位姿估计全流程实战](https://mp.weixin.qq.com/s/rKY06KLahucc_XUh3-pEmg)
 - # .NET 环境管理
 	- [[.NET 环境管理]]
+- # 发布与部署
+	- [每次发版都要手写发布说明？用 .NET + AI 让这件事彻底自动化](https://mp.weixin.qq.com/s/YEeJ1-xzNik9OUDGsijXyg)
 - # 相关参考
 	- [Microsoft Learn：构建触手可及的答案](https://learn.microsoft.com/zh-cn/)
 	- [.NET 文档 - .NET | Microsoft Learn](https://learn.microsoft.com/zh-cn/dotnet/)
 	  id:: 69f16849-fa90-48d5-bfbc-8f53569a58f0
-	-
--
+	- id:: 69f307bf-ec7e-4d2f-9557-39778a9e510b
 -

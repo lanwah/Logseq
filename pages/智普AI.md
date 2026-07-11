@@ -5,6 +5,7 @@ category:: 文章
 - # 官方网站
 	- [智谱AI开放平台](https://bigmodel.cn/)
 		- [平台介绍 - 智谱AI开放文档](https://docs.bigmodel.cn/cn/guide/start/introduction)
+		- [模型概览 - 智谱AI开放文档](https://docs.bigmodel.cn/cn/guide/start/model-overview)
 		- [智谱AI开放平台 - 订单明细](https://bigmodel.cn/finance-center/bill/order/list)
 		- [智谱AI开放平台 - 费用账单](https://bigmodel.cn/finance-center/bill/expensebill/monthlybillingdetails/2026-04)
 		- [智谱AI开放平台 - 资源包管理](https://bigmodel.cn/finance-center/resource-package/package-mgmt)

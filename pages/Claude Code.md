@@ -15,7 +15,9 @@ category:: 软件工具
 -
 - # IDE集成
 	- [Claude Code 正式发布 VS Code 扩展！](https://mp.weixin.qq.com/s/Ts80YnZLvvZTW2oM30vBTg)
--
+- # IM 集成
+	- ((6a5243d9-732f-4fb7-86ab-6252b1cc938b)) #wechat-claude-code
+	- [cc-connect：把 Claude Code 装进微信、飞书、钉钉的轻量桥接器](https://mp.weixin.qq.com/s/7OYhvEvKE6SE6hAsplEE5g)#IM #微信 #飞书 #钉钉 #QQ #Agent #[[Claude Code]] #Codex #Cursor
 - # 安装和使用
 	- [Claude Code安装和使用教程 - 星墨 - 博客园](https://www.cnblogs.com/yada/p/19723381)
 	- [Claude Code 快速切换模型：一键丝滑切换国产大模型 - 知乎](https://zhuanlan.zhihu.com/p/1994519994684428636)
@@ -106,18 +108,27 @@ category:: 软件工具
 			- [.NET Agent Skills: How AI Coding Agents Get Domain Expertise - Uno Platform](https://platform.uno/articles/dotnet-agent-skills-ai-coding-agents/#elementor-toc__heading-anchor-0)
 		- [Aaronontheweb/dotnet-skills: Claude Code skills and sub-agents for .NET Developers](https://github.com/Aaronontheweb/dotnet-skills/tree/master)
 			- [dotnet-skills by Aaronontheweb - SourcePulse](https://www.sourcepulse.org/projects/24075074)
+	- ## 文章
+		- [从零开发一个 Claude Code Skill：以 GeneralUpdate Skill CodeGen 为例](https://mp.weixin.qq.com/s/DqPio9o3s8JgJribrxBYDQ)
+		- [给 Claude Code 装上这 17 个插件，效率直接翻几倍](https://mp.weixin.qq.com/s/1MgpVBHn1OLAjfCKM83ImA) #Skill
+		-
 	- ## 自定义技能
 		- [[code-downloader]]
 - # 学习推荐网站
 	- ((6a1f7871-72ee-4555-8881-d33a172adb19))
 - # 动态/新闻
 	- ((6a2a087a-b16d-4d4a-8110-172902229e4e))
+	- [记一个我被Claude Fable 5震撼的瞬间。](https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg)
+	- [我的网站被攻击了48个小时，Claude Fable 5替我防下了这一切。](https://mp.weixin.qq.com/s/mvVVvlIF_rZISGXtsI7Igw)
+	- [Anthropic偷偷在Claude Code中植入了隐形代码，只为识别中国用户。](https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw)
+	- [聊聊Anthropic这篇最新研究，我觉得可能是AI意识诞生的前夜。](https://mp.weixin.qq.com/s/Qsh68u0yFOTuJtBXNVKH0w)
 -
 - # 相关参考
 	- [Claude Code 安装 - 快速开始 | Claude Code 中文站](https://claude-zh.cn/guide/getting-started)
 	  id:: 69fd4489-9603-4db3-98b3-b40669f3d928
 	- [Claude Code 最强配置清单：七个高效开源工具，让 AI 编程从“能用”变成“好用”​！！！](https://mp.weixin.qq.com/s/WRE1pvGvlSVYT3VIkYYc3g) #pending
 	- [为 C#/.NET 打造的13条 CLAUDE.md：让 AI 不再写“新手代码”](https://mp.weixin.qq.com/s/Ko_UjuI1ev3mPWM51nwv_Q) #pending
+	- [Claude Code命令最全详解(2026最新版)](https://mp.weixin.qq.com/s/5jh4-ns3Sdx2dqXx-DbeoQ)
 	- 动态/新闻
 		- [Claude Fable 5正式发布 - 王者归航。](https://mp.weixin.qq.com/s/MY6dhYVvRDeoZh-KQLet3Q)
 		  id:: 6a2a087a-b16d-4d4a-8110-172902229e4e
