@@ -159,7 +159,13 @@ category:: AI编程工具
 	  agent --continue
 	  ```
 	- CLI 会读取 .cursor/rules、AGENTS.md、mcp.json，与 IDE 行为一致。
--
+- # 新闻/动态
+	- 1
+	- ## 思考
+		- [我取消了 Cursor 订阅，不是因为它不好，而是我的 AI 工作流变了](https://mp.weixin.qq.com/s/tHcHBcyHAB_zRzD7fg0W8g)
+- # 问题
+	- Auto 模型AskQuestion工具使用不了
+		- [Ask tool disapear - Support / Bug Reports - Cursor - Community Forum](https://forum.cursor.com/t/ask-tool-disapear/165742)
 - # 相关参考
 	- [Cursor: The best way to code with AI](https://cursor.com/cn)
 	  id:: 6a066805-ea9d-4550-ab8d-dce2b0bf32ec

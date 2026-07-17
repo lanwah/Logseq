@@ -55,6 +55,7 @@ category:: 软件工具
 		  | `Shift + Tab` | 循环切换权限模式 |
 		  |`Ctrl + C`|中断生成，光标回到输入行|
 		  |`Esc + Esc`|打开Rewind菜单，可选择撤回|
+		  |`Alt + C`|粘贴图片到控制台|
 		  |`Ctrl + D`|退出程序，返回到系统终端|
 		  |`/exit`|通过命令退出，效果同 `Ctrl + D`|
 		  |`/clear`|清空当前对话历史，保留 Auto Memory 设置。|
@@ -117,11 +118,14 @@ category:: 软件工具
 - # 学习推荐网站
 	- ((6a1f7871-72ee-4555-8881-d33a172adb19))
 - # 动态/新闻
-	- ((6a2a087a-b16d-4d4a-8110-172902229e4e))
-	- [记一个我被Claude Fable 5震撼的瞬间。](https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg)
-	- [我的网站被攻击了48个小时，Claude Fable 5替我防下了这一切。](https://mp.weixin.qq.com/s/mvVVvlIF_rZISGXtsI7Igw)
+	- **[[Fable 5]]**
+		- ((6a2a087a-b16d-4d4a-8110-172902229e4e))
+		- [Claude Code 之父语出惊人：Fable 5 越强，你那套「完美提示词」反而在拖后腿](https://mp.weixin.qq.com/s/zQYfozNNSxPiKJ9JGqK7LQ)
+		- [记一个我被Claude Fable 5震撼的瞬间。](https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg)
+		- [我的网站被攻击了48个小时，Claude Fable 5替我防下了这一切。](https://mp.weixin.qq.com/s/mvVVvlIF_rZISGXtsI7Igw)
 	- [Anthropic偷偷在Claude Code中植入了隐形代码，只为识别中国用户。](https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw)
 	- [聊聊Anthropic这篇最新研究，我觉得可能是AI意识诞生的前夜。](https://mp.weixin.qq.com/s/Qsh68u0yFOTuJtBXNVKH0w)
+	- [聊聊今年涌进Anthropic的N个巨佬，他们押注的是下一个十年。](https://mp.weixin.qq.com/s/anproOlT2GTzmbkqPWD4Zg)
 -
 - # 相关参考
 	- [Claude Code 安装 - 快速开始 | Claude Code 中文站](https://claude-zh.cn/guide/getting-started)

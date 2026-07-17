@@ -11,4 +11,6 @@ category:: 文章
 		- [智谱AI开放平台 - 资源包管理](https://bigmodel.cn/finance-center/resource-package/package-mgmt)
 		- [智谱AI开放平台 - API Key](https://bigmodel.cn/apikey/platform)
 -
+- # [[LLM]]
+	- ## [[GLM系列]]
 -

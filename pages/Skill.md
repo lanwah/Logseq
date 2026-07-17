@@ -1,8 +1,10 @@
 tags:: AI
 
+- # 介绍
+	- Skills（技能）是包含**指令、脚本和资源**的文件夹，Claude 会动态加载它们来提升在特定任务上的表现。[](https://github.com/anthropics/skills)简单来说，Skills 以**可重复的方式**教会 Claude 完成特定任务——无论是按照公司的品牌指南创建文档，还是使用组织特定的工作流程分析数据，或是自动化个人任务。[](https://github.com/anthropics/skills)
+	- 每个 Skill 都是一个独立的文件夹，内含一个 `SKILL.md` 文件，其中包含了 Claude 使用的指令和元数据。
 - # 技能
-	- [mattpocock/skills: Skills for Real Engineers. Straight from my .claude directory.](https://github.com/mattpocock/skills)
-	  >它在你写代码之前，逐个问题追问你的方案，直到你和 Codex 对需求的理解一致。核心指令很简单："Interview me relentlessly about every aspect of this plan until we reach a shared understanding(这个计划的方方面面对我穷追不舍地追问，直到我们达成共识)"
+	- [[mattpocock/skills]] - #grill-me
 	- ((6a4ef601-b9d9-4e82-9619-559cbe847ef8)) #Rule #Memory 
 	  >Karpathy Guidelines 把这些行为纠正编成四条硬规则：
 	  **先想再写**：有多种理解的时候列出来让你选，不偷偷选一个就跑
@@ -12,4 +14,7 @@ tags:: AI
 - # 相关参考
 	- ((6a4b0330-5e04-40ca-bf11-32c805c64fd1))
 	- [如何搭建自己的Skill](https://mp.weixin.qq.com/s/IERdFGKNrrvz88RXv0Hg3Q)
+	- [数字生命卡兹克推荐过的所有 Skills，我帮你全扒干净了](https://mp.weixin.qq.com/s/XouVKaqh4mW3HJlXthZHuA) #obra/superpowers #frontend-design
+	- [Claude Code 10个必装插件](https://mp.weixin.qq.com/s/znU1ZFHrtMZHBC4CpRUBgw) [[Claude Code]]
+-
 -

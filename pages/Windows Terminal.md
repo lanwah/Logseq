@@ -35,7 +35,19 @@ category:: 软件工具
 	  |Ctrl + -|减小字号|
 	  |Ctrl + 0|恢复默认字号|
 	  |Alt + Enter|全屏/窗口模式切换|
-	-
+- # 终端集成
+	- 在Windows Terminal 中集成其他命令行
+	- ## Git Bash
+		- settings.json中添加如下代码段
+		  ```json
+		  {
+		  	"commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+		      "guid": "{6c1ed517-3dee-5d3f-9249-de475802e8ac}",
+		      "hidden": false,
+		      "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+		      "name": "Git Bash"
+		   }
+		  ```
 - # 相关参考
 	- [GitHub：microsoft/terminal](https://github.com/microsoft/terminal)
 	  id:: 6a07f950-3d1b-42d3-8833-fa4eb7983027

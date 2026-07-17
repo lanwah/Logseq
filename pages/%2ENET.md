@@ -14,7 +14,7 @@ tags:: 知识库
 		- {{embed ((6a39d5fd-76e7-40b4-95d8-8e888c964d1d))}}
 	- ## [[Semantic Kernel]]
 		- {{embed ((6a027ebd-3d15-4fbf-aed8-e48f61809084))}}
-	- ## [[Kimi]]
+	- ## [[Kimi系列]]
 		- [在 .NET 中使用 Moonshot Kimi + AgentFramework：从 SDK 到 Agent 的完整实践 - View12138 - 博客园](https://www.cnblogs.com/view12138/p/19831463)
 - # [[通信]]
 	- ## [[Http/Https]]
