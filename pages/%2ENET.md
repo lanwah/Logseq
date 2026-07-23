@@ -27,12 +27,20 @@ tags:: 知识库
 		- [.NET 高级开发 | .NET 中的序列化和反序列化 - 痴者工良 - 博客园](https://www.cnblogs.com/whuanle/p/19828051) #[[ASP.NET Core]] #System.Text.Json
 	- ## [[线程/多线程]]
 		- [C# Thread类的创建与生命周期管理详解：从入门到实战](https://mp.weixin.qq.com/s/2v-suI7q8-Tg_1Tt9zgqJQ)
-		- 项目实战
+		- **同步/异步**
+			- [你写的"同步等待"正在悄悄把服务器憋死——.NET 异步死锁解析](https://mp.weixin.qq.com/s/Xqp2GkWK0ip6UJqX6GdABA)
+		- **项目实战**
 			- [设备监控系统的异步任务队列设计——从单线程到生产级方案](https://mp.weixin.qq.com/s/JCepPNc8_0Y5NbawRBDYZA)
 	- ## 源代码生成器
 		- [告别配置地狱：用 C# Source Generators 让 JSON 配置文件"活"起来](https://mp.weixin.qq.com/s/M0u5p7A1RZVcMG1nAmfJdg)
 - # 机器视觉
 	- [别再瞎调相机了！用 C# + OpenCV 搞定单目视觉定位：从棋盘格标定到 ArUco 位姿估计全流程实战](https://mp.weixin.qq.com/s/rKY06KLahucc_XUh3-pEmg)
+- # [[工业控制]]
+-
+- # 音频/视频
+	- [你写的"同步等待"正在悄悄把服务器憋死——.NET 异步死锁解析](https://mp.weixin.qq.com/s/Xqp2GkWK0ip6UJqX6GdABA)
+- # 数据库
+	- [C# Winform 使用 SQL Dependency 实现数据库变更实时监控](https://mp.weixin.qq.com/s/klZuvUIjWzmVZrKSw40rKw) #WinForm #数据库 [[SQL Server]]
 - # .NET 环境管理
 	- [[.NET 环境管理]]
 - # 发布与部署

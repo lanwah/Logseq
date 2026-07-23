@@ -60,14 +60,16 @@ category:: 软件工具
 		  |`/exit`|通过命令退出，效果同 `Ctrl + D`|
 		  |`/clear`|清空当前对话历史，保留 Auto Memory 设置。|
 		-
-		- ## 操作指南
-			- [[Claude Code 权限模式]]
-			  id:: 69df6188-9a00-4c1f-84ae-692de2d85620
-			- [[Claude Code 命令]]
-			  id:: 69ecbb5f-8121-4216-b213-b282822a8b49
-			- [[Claude Code 记忆]]
-			  id:: 69ecc009-18a8-4d71-b32c-5af845b79a08
 		-
+- # 操作指南
+	- [[Claude Code 权限模式]]
+	  id:: 69df6188-9a00-4c1f-84ae-692de2d85620
+	- [[Claude Code 命令]]
+	  id:: 69ecbb5f-8121-4216-b213-b282822a8b49
+	- [[Claude Code 记忆]]
+	  id:: 69ecc009-18a8-4d71-b32c-5af845b79a08
+	- ## 使用技巧
+		- [Claude Code 装了个总控台 · Agent View 让我成了 AI 监工](https://mp.weixin.qq.com/s/jkSh1innfD5xC9WFLLIA4g) #tmux
 -
 - # Claude Code 学习
 	- Git：[lhfer/claude-howto-zh-cn](https://github.com/lhfer/claude-howto-zh-cn)

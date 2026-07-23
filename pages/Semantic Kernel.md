@@ -9,3 +9,4 @@ tags:: AI, .NET
 	- [Semantic Kernel Plugin 架构设计：打造真正可插拔的 AI 能力体系](https://mp.weixin.qq.com/s/JziZyhNC-mor_pimHppbig)
 	- [Semantic Kernel ：自定义 Plugin 开发基础 - 让AI具备更强的能力扩展](https://mp.weixin.qq.com/s/CwC6_lK-T5k0XmKiBUUKIg)
 	- [深度解析 C# Semantic Kernel Native Functions：从基础到高阶的完整实战指南](https://mp.weixin.qq.com/s/iUZEeUc7Egnc64yXSkmMVQ)
+	- [C# AI Semantic Functions 深入实战指南：打造智能写作助手](https://mp.weixin.qq.com/s/tJXxB0o9BpiuTArFRisX7Q)

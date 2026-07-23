@@ -34,7 +34,7 @@ refrence:: [[Logseq]]，[[Logseq属性]]
 		- # 开源信息
 			- **开源平台：** GitHub/Gitee
 			- **项目名称：**
-			- **使用协议：** MIT license
+			- **使用协议：** [[MIT license]]
 			- **开源地址：**
 			- **开发语言：**
 		- # 项目介绍

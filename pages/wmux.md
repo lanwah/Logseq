@@ -1,0 +1,44 @@
+tags:: #终端工具, #cmux
+
+- # 开源信息
+	- **开源平台：** #GitHub
+	- **项目名称：** #wmux
+	- **使用协议：** [[MIT license]]
+	- **开源地址：** https://github.com/openwong2kim/wmux
+		- https://github.com/amirlehmam/wmux
+		- https://github.com/GeoDevApp/wmux
+	- **开发语言：** TypeScript 89.3%+JavaScript 9.9%+PowerShell 0.2%+CSS 0.2%+HTML 0.2%+Rust 0.1%+Shell 0.1%
+- # 项目介绍
+	- 这三个项目都叫 `wmux`，且都源于同一个灵感——macOS 上的 `cmux`[](https://github.com/amirlehmam/wmux)，但它们的定位、功能和维护状态差异巨大。
+	- 简单来说，它们是**同一个想法在 Windows 平台上的三次不同演绎**，其中 **`openwong2kim/wmux` 是目前最活跃、功能最强大的版本**。
+	- ## 1. amirlehmam/wmux：最早的“原版移植”
+		- **定位**：自称 **“The original Windows terminal multiplexer for AI agents. Port of cmux.”**[](https://github.com/amirlehmam/wmux)。它是三个项目中最早出现的，旨在将 `cmux` 的核心体验带到 Windows。
+		- **技术栈**：基于 **Electron + xterm.js** 构建[](https://github.com/amirlehmam/wmux)。
+		- **核心功能**：
+			- 提供 Claude Code 的**可视化层**，让你能实时看到 AI 代理的活动[](https://github.com/amirlehmam/wmux)。
+			- 侧边栏通过**活动指示点**（橙色=工作中，绿色=完成，红色=中断）显示会话状态[](https://github.com/amirlehmam/wmux)。
+			- 内置**通知中心**，支持 OSC 9/99/777 等标准协议[](https://github.com/amirlehmam/wmux)。
+			- 提供 **`wmux-orchestrator` 插件**，可将复杂任务分解，由多个并行的 AI 代理协作完成[](https://github.com/amirlehmam/wmux)。
+			- 支持**分屏、会话保存、剪贴板粘贴图片**等功能[](https://github.com/amirlehmam/wmux)。
+		- **项目状态**：从更新频率看，它更像是**概念验证**，为后续版本奠定了基础。
+	- ## 2. GeoDevApp/wmux：第一个“复刻”分支
+		- **定位**：明确标识为从 `cmux` 复刻（Forked from cmux）而来的 Windows 终端多路复用器[](https://github.com/GeoDevApp/wmux)。
+		- **技术栈**：同样基于 **Electron + xterm.js**[](https://github.com/GeoDevApp/wmux)。
+		- **核心功能**：
+			- 功能与 `amirlehmam/wmux` **高度相似**，同样提供 Claude Code 的可视化层、实时浏览器可见性、活动指示、通知中心等[](https://github.com/GeoDevApp/wmux)。
+			- 强调其**脚本化**能力，提供基于命名管道的 JSON-RPC API[](https://github.com/GeoDevApp/wmux)。
+			- 同样支持**会话保存、图片粘贴、分屏**等功能[](https://github.com/GeoDevApp/wmux)。
+		- **项目状态**：它似乎是 `amirlehmam/wmux` 的一个**早期复刻或分支**，功能相似，但并未展现出显著的差异性发展。
+	- ## 3. openwong2kim/wmux：功能最强大的“进化版”
+		- **定位**：**Windows 原生 tmux 替代品**，专为 AI 代理设计[](https://github.com/openwong2kim/wmux)。它不仅是 `cmux` 的移植，更是对其理念的**大幅扩展和进化**。
+		- **技术栈**：未明确说明，但强调 **“No WSL required”** （无需 WSL）[](https://github.com/openwong2kim/wmux)。
+		- **核心功能（远超前者）**：
+			- **真正的多代理并行**：支持在一个窗口中同时运行 **Claude Code、Codex、Gemini CLI** 等多个 AI 代理[](https://github.com/openwong2kim/wmux)。
+			- **强大的编排能力**：内置的**编排器（Orchestrator）** 可以将一个提示词分发给 **最多 8 个** 独立代理，每个代理在独立的 Git worktree 中工作，最后合并结果[](https://github.com/openwong2kim/wmux)。
+			- **会话持久化**：最突出的特点是**“Survives reboot”** ——即使你的电脑**崩溃或重启**，代理会话也能恢复[](https://github.com/openwong2kim/wmux)。
+			- **深度 Git 集成**：侧边栏直接显示 PR、worktree 和文件差异（diff），并支持对代码块提问[](https://github.com/openwong2kim/wmux)。
+			- **“频道”（Channels）**：类似 Slack 的持久化房间，代理可以在其中读写消息，并支持 `@` 提及[](https://github.com/openwong2kim/wmux)。
+		- **项目状态**：**目前最活跃、Star 数最多**的 `wmux` 项目，被认为是 Windows 平台 AI 代理终端多路复用器的**事实标准**。
+	- 简单来说，这三个项目构成了一个清晰的演进链条：**`amirlehmam/wmux` 是起点**，它将 `cmux` 的理念带到了 Windows；**`GeoDevApp/wmux` 是早期的一个复刻分支**；而 **`openwong2kim/wmux` 则是集大成者**，它不仅继承了前者的核心思想，更通过强大的编排能力、重启恢复等特性，将“AI 代理终端多路复用”提升到了一个新的高度。
+	- 如果你需要在 Windows 上管理多个 AI 编程代理，**`openwong2kim/wmux` 无疑是当前的最佳选择**。
+-

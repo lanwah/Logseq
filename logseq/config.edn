@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["Tag数据看板" "任务数据看板" "logseq" "数据看板"]
+ :favorites ["Contents" "日常" "Tag数据看板" "任务数据看板" "logseq" "数据看板"]
 
  ;; Set flashcards interval.
  ;; Expected value:
