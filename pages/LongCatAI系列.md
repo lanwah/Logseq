@@ -4,6 +4,7 @@ tags:: #美团, #LLM
 - # 官方网站
 	- [LongCat AI](https://longcat.chat/)
 		- [LongCatAI · 用量管理](https://longcat.chat/platform/usage)
+		  id:: 01da3efc-7ddf-4c96-bd70-6a6cc5872d42
 		- [LongCatAI · API Keys](https://longcat.chat/platform/api_keys)
 		-
 	- [快速开始 | LongCat API Docs](https://longcat.chat/platform/docs/zh/)

@@ -36,7 +36,11 @@
 			- [[待整理]]
 				- [[OFD]]
 		- AI
+			- [[LM]]
+				- [[LLM]]
+				- [[Phi模型]]
 			- [[Agent]]
+			  collapsed:: true
 				- [[Claude Code]]
 				  collapsed:: true
 					- ((69df6188-9a00-4c1f-84ae-692de2d85620))
@@ -56,10 +60,12 @@
 					- [[ChatGPT系列]]
 					- [[Codex]]
 				- [[DeepSeek]]
+					- [[DeepSeek系列]]
 				- [[美团]]
 					- [[LongCatAI系列]]
 				- [[月之暗面]]
 					- [[Kimi系列]]
+				- [[字节跳动]]
 			- [[Agnes AI]]
 			- [[xAI]]
 			- [[RTK]]
@@ -72,6 +78,7 @@
 			- [[RAG]]
 			- [[视频]]
 			- [[Skill]]
+			  collapsed:: true
 				- [[anthropics/skills]]
 				- [[MiniMax-AI/skills]]
 				- [[mattpocock/skills]]
