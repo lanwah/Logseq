@@ -1,4 +1,4 @@
-tags:: AI, AI Agent，软件工具
+tags:: AI, AI Agent，软件工具, #Anthropic 
 category:: 软件工具
 
 - 什么是 Claude Code？
@@ -13,9 +13,9 @@ category:: 软件工具
 		- [在 VS Code 中使用 Claude Code - Claude Code Docs](https://code.claude.com/docs/zh-CN/vs-code)
 -
 -
-- # IDE集成
+- # [[IDE集成]]
 	- [Claude Code 正式发布 VS Code 扩展！](https://mp.weixin.qq.com/s/Ts80YnZLvvZTW2oM30vBTg)
-- # IM 集成
+- # [[IM集成]]
 	- ((6a5243d9-732f-4fb7-86ab-6252b1cc938b)) #wechat-claude-code
 	- [cc-connect：把 Claude Code 装进微信、飞书、钉钉的轻量桥接器](https://mp.weixin.qq.com/s/7OYhvEvKE6SE6hAsplEE5g)#IM #微信 #飞书 #钉钉 #QQ #Agent #[[Claude Code]] #Codex #Cursor
 - # 安装和使用
@@ -32,7 +32,6 @@ category:: 软件工具
 		  
 		  // 查看版本号
 		  claude -v
-		  
 		  
 		  ```
 		- 参考
@@ -79,10 +78,8 @@ category:: 软件工具
 	- [Plugins for Claude Code and Cowork | Anthropic](https://claude.com/plugins#plugins)
 	- [anthropics/claude-plugins-official: Official, Anthropic-managed directory of high quality Claude Code Plugins.](https://github.com/anthropics/claude-plugins-official)
 	- [obra/superpowers: An agentic skills framework & software development methodology that works.](https://github.com/obra/superpowers)
-	- ## Claude HUD
-		- [jarrodwatts/claude-hud: A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress](https://github.com/jarrodwatts/claude-hud)
-		- [Claude HUD：给你的 Claude Code 装一块「仪表盘」为什么需要 Claude HUD？ 如果你已经在用 - 掘金](https://juejin.cn/post/7618239540528758838)
-		- [给claudecode装上状态栏，效率起飞！claude-hud插件完全解析-CSDN博客](https://blog.csdn.net/qq_60735796/article/details/158208616)
+	- ## [[claude-hud]]
+	- ## [[ccstatusline]]
 - # 模型
 	- Claude Code settings.json 配置文件中配置的模型信息：
 		- ANTHROPIC_MODEL
@@ -114,20 +111,11 @@ category:: 软件工具
 	- ## 文章
 		- [从零开发一个 Claude Code Skill：以 GeneralUpdate Skill CodeGen 为例](https://mp.weixin.qq.com/s/DqPio9o3s8JgJribrxBYDQ)
 		- [给 Claude Code 装上这 17 个插件，效率直接翻几倍](https://mp.weixin.qq.com/s/1MgpVBHn1OLAjfCKM83ImA) #Skill
-		-
-	- ## 自定义技能
-		- [[code-downloader]]
 - # 学习推荐网站
 	- ((6a1f7871-72ee-4555-8881-d33a172adb19))
-- # 动态/新闻
-	- **[[Fable 5]]**
-		- ((6a2a087a-b16d-4d4a-8110-172902229e4e))
-		- [Claude Code 之父语出惊人：Fable 5 越强，你那套「完美提示词」反而在拖后腿](https://mp.weixin.qq.com/s/zQYfozNNSxPiKJ9JGqK7LQ)
-		- [记一个我被Claude Fable 5震撼的瞬间。](https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg)
-		- [我的网站被攻击了48个小时，Claude Fable 5替我防下了这一切。](https://mp.weixin.qq.com/s/mvVVvlIF_rZISGXtsI7Igw)
-	- [Anthropic偷偷在Claude Code中植入了隐形代码，只为识别中国用户。](https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw)
-	- [聊聊Anthropic这篇最新研究，我觉得可能是AI意识诞生的前夜。](https://mp.weixin.qq.com/s/Qsh68u0yFOTuJtBXNVKH0w)
-	- [聊聊今年涌进Anthropic的N个巨佬，他们押注的是下一个十年。](https://mp.weixin.qq.com/s/anproOlT2GTzmbkqPWD4Zg)
+- # 新闻/动态
+	- [Think through hard problems in voice mode | Claude by Anthropic](https://claude.com/blog/think-through-hard-problems-in-voice-mode)
+		- [Claude 语音模式现已支持 Opus、Sonnet 及连接工具与多语言 · AI HOT](https://aihot.virxact.com/items/cmrxxl53u03q5roxp15huqnni)
 -
 - # 相关参考
 	- [Claude Code 安装 - 快速开始 | Claude Code 中文站](https://claude-zh.cn/guide/getting-started)
@@ -135,7 +123,4 @@ category:: 软件工具
 	- [Claude Code 最强配置清单：七个高效开源工具，让 AI 编程从“能用”变成“好用”​！！！](https://mp.weixin.qq.com/s/WRE1pvGvlSVYT3VIkYYc3g) #pending
 	- [为 C#/.NET 打造的13条 CLAUDE.md：让 AI 不再写“新手代码”](https://mp.weixin.qq.com/s/Ko_UjuI1ev3mPWM51nwv_Q) #pending
 	- [Claude Code命令最全详解(2026最新版)](https://mp.weixin.qq.com/s/5jh4-ns3Sdx2dqXx-DbeoQ)
-	- 动态/新闻
-		- [Claude Fable 5正式发布 - 王者归航。](https://mp.weixin.qq.com/s/MY6dhYVvRDeoZh-KQLet3Q)
-		  id:: 6a2a087a-b16d-4d4a-8110-172902229e4e
 -

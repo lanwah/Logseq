@@ -1,7 +1,6 @@
 public:: true
 tags:: 桌面应用程序
 
--
 - # 样式&模板
 	- [WPF 样式与模板实战：工业设备状态显示面板](https://mp.weixin.qq.com/s/7N3ttUTTiDlH97AOgV6vCw)
 - # 资源

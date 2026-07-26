@@ -19,7 +19,7 @@ tags:: 桌面应用程序
 - # MVVM
 	- [[MVVM]]
 		- ((6a3129d6-3af3-462a-9822-ee93fbf0ae50))
-		- [CommunityToolkit.Mvvm × 工业WinForm 配置文件管理：用 ViewModel 驱动 appsettings.json 读写](https://mp.weixin.qq.com/s/JZXse8HGkl56z6fzl3KKHw) #配置文件 #CommunityToolkit.Mvvm
+		- ((6a64c2de-05ac-44b0-94e0-66cbf0ef1f1c))
 		- [CommunityToolkit.Mvvm × 工业WinForm 的 Messenger 消息总线初探](https://mp.weixin.qq.com/s/7id_Ia1oYGxgedfT4LClMw) #CommunityToolkit.Mvvm
 		- ((6a600ed6-afa4-493a-b3d5-80d30fe4eddf))
 	-

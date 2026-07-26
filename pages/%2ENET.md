@@ -45,6 +45,8 @@ tags:: 知识库
 	- [[.NET 环境管理]]
 - # 发布与部署
 	- [每次发版都要手写发布说明？用 .NET + AI 让这件事彻底自动化](https://mp.weixin.qq.com/s/YEeJ1-xzNik9OUDGsijXyg)
+- # 开发技巧
+	- [C#开发中的隐形陷阱：抽象层正在"吃掉"你的性能](https://mp.weixin.qq.com/s/QVLuli4pdVVW9Wcq1dE_yg)
 - # 相关参考
 	- [Microsoft Learn：构建触手可及的答案](https://learn.microsoft.com/zh-cn/)
 	- [.NET 文档 - .NET | Microsoft Learn](https://learn.microsoft.com/zh-cn/dotnet/)

@@ -11,10 +11,12 @@ tags:: AI
 	  **简单优先**：200 行能写完的别写 500 行，不加你没要求的功能
 	  **手术式改动**：只碰必须改的文件，不顺便"优化"旁边的代码
 	  **目标驱动**：定义成功标准，写测试验证，循环直到通过
+- # 自定义技能
+	- [[code-downloader]]
 - # 相关参考
 	- ((6a4b0330-5e04-40ca-bf11-32c805c64fd1))
+	- ((6a6445b4-342e-462e-a714-dd027cc69568))
 	- [如何搭建自己的Skill](https://mp.weixin.qq.com/s/IERdFGKNrrvz88RXv0Hg3Q)
 	- [数字生命卡兹克推荐过的所有 Skills，我帮你全扒干净了](https://mp.weixin.qq.com/s/XouVKaqh4mW3HJlXthZHuA) #obra/superpowers #frontend-design
 	- [Claude Code 10个必装插件](https://mp.weixin.qq.com/s/znU1ZFHrtMZHBC4CpRUBgw) [[Claude Code]]
--
 -

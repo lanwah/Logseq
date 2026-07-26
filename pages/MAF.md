@@ -1,6 +1,8 @@
 tags:: .NET, AI, [Semantic Kernel]
 
 -
+- # [[新闻/动态]]
+	- [Microsoft Agent Framework 1.0 正式发布：Agent Skills 补齐后，.NET AI Agent 开发真正进入工程化时代 - 「圣杰」 - 博客园](https://www.cnblogs.com/sheng-jie/p/19815306/MAF-v1-releaed)
 - # 相关参考
   id:: 6a39d5fd-76e7-40b4-95d8-8e888c964d1d
 	- [Microsoft Agent Framework 1.0 正式接棒，.NET AI 进入 Agent-Native 时代](https://mp.weixin.qq.com/s/qLetEDma8xse2HP7Z7vI1w)
