@@ -14,6 +14,8 @@ tags:: 桌面应用程序
 		- [基于 .NET 的 Windows 窗体编程之 WinForms 打印](https://mp.weixin.qq.com/s/3FyewqwUKDp-wLQMa7pHjw)
 	- ## [[图表]]
 		- {{embed ((6a5c948a-57de-4fd0-8ac5-4840652f4a82))}}
+	- ## 工业监控
+		- [WinForms三层架构：工业监控系统从0到1的正确姿势](https://mp.weixin.qq.com/s/kKoxKL159rAMHUHsOmzwOQ) #三层架构
 	- ## 打包/部署
 		- [C#项目打包别再手搓](https://mp.weixin.qq.com/s/LOe8Bu7RVWx1vcqHZlvZgQ)
 - # MVVM

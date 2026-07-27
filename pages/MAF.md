@@ -1,4 +1,4 @@
-tags:: .NET, AI, [Semantic Kernel]
+tags:: .NET, AI, [[Semantic Kernel]]
 
 -
 - # [[新闻/动态]]
