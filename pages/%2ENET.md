@@ -20,15 +20,19 @@ tags:: 知识库
 	- ## [[Http/Https]]
 		- {{embed ((6a39dbea-ece6-4ed7-979f-357b6c9479be))}}
 - # [[桌面应用程序]]
-	- [[WinForm]]
+	- [[WinForms]]
 	- [[WPF]]
 - # 开发技术
+	- ## [[互操作]]
+		- {{embed ((6a7134b9-bca4-4554-ac95-4269e94fbf17))}}
 	- ## 序列化/反序列化
 		- [.NET 高级开发 | .NET 中的序列化和反序列化 - 痴者工良 - 博客园](https://www.cnblogs.com/whuanle/p/19828051) #[[ASP.NET Core]] #System.Text.Json
 	- ## [[线程/多线程]]
 		- [C# Thread类的创建与生命周期管理详解：从入门到实战](https://mp.weixin.qq.com/s/2v-suI7q8-Tg_1Tt9zgqJQ)
 		- **同步/异步**
 			- [你写的"同步等待"正在悄悄把服务器憋死——.NET 异步死锁解析](https://mp.weixin.qq.com/s/Xqp2GkWK0ip6UJqX6GdABA)
+		- **并发/并行**
+			- [循环里的 Task.Run 与无界 Parallel.ForEach：离生产事故只差一步](https://mp.weixin.qq.com/s/D74Jo8gDSvxdv07rjZB3Iw) #Task, #Parallel
 		- **项目实战**
 			- [设备监控系统的异步任务队列设计——从单线程到生产级方案](https://mp.weixin.qq.com/s/JCepPNc8_0Y5NbawRBDYZA)
 	- ## 源代码生成器
@@ -36,20 +40,31 @@ tags:: 知识库
 - # 机器视觉
 	- [别再瞎调相机了！用 C# + OpenCV 搞定单目视觉定位：从棋盘格标定到 ArUco 位姿估计全流程实战](https://mp.weixin.qq.com/s/rKY06KLahucc_XUh3-pEmg)
 - # [[工业控制]]
+	- [[PLC]]
+-
 -
 - # 音频/视频
 	- [你写的"同步等待"正在悄悄把服务器憋死——.NET 异步死锁解析](https://mp.weixin.qq.com/s/Xqp2GkWK0ip6UJqX6GdABA)
 - # 数据库
-	- [C# Winform 使用 SQL Dependency 实现数据库变更实时监控](https://mp.weixin.qq.com/s/klZuvUIjWzmVZrKSw40rKw) #WinForm #数据库 [[SQL Server]]
+	- [C# Winform 使用 SQL Dependency 实现数据库变更实时监控](https://mp.weixin.qq.com/s/klZuvUIjWzmVZrKSw40rKw) #WinForms #数据库 [[SQL Server]]
 - # .NET 环境管理
 	- [[.NET 环境管理]]
 - # 发布与部署
 	- [每次发版都要手写发布说明？用 .NET + AI 让这件事彻底自动化](https://mp.weixin.qq.com/s/YEeJ1-xzNik9OUDGsijXyg)
-- # 开发技巧
+- # 开发技巧/性能优化
 	- [C#开发中的隐形陷阱：抽象层正在"吃掉"你的性能](https://mp.weixin.qq.com/s/QVLuli4pdVVW9Wcq1dE_yg)
+	- [C# 实战指南：Records、模式匹配、异步与性能优化深度解析](https://mp.weixin.qq.com/s/68qBzPXcezziS_qIU-aRbA)
+- # 概念
+	- [[类库]]
+	- [[CQRS]]
+	- [[DDD]]
+	- [[ES]]
+	- [[自动化]]
+		- [[wexflow]]
 - # 相关参考
 	- [Microsoft Learn：构建触手可及的答案](https://learn.microsoft.com/zh-cn/)
 	- [.NET 文档 - .NET | Microsoft Learn](https://learn.microsoft.com/zh-cn/dotnet/)
 	  id:: 69f16849-fa90-48d5-bfbc-8f53569a58f0
 	- id:: 69f307bf-ec7e-4d2f-9557-39778a9e510b
+-
 -

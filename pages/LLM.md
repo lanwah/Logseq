@@ -1,1 +1,29 @@
 tags:: #LM
+
+- # 分类
+	- ## 按“能处理什么”划分：纯文本 vs. 多模态
+		- ### 纯文本模型
+			- **（Text-only）**，只能处理文字。
+			- 输入：只能读文字。
+			- 输出：只能生成文字。
+			- 代表：DeepSeek-V4-Flash、早期的GPT-3、LLaMA。
+		- ### 多模态模型
+			- **（Multimodal）**，能同时处理文字、图片、音频、视频等多种信息。
+			- 输入：可以传图片让它识别，或者传音频让它转写。
+			- 输出：不仅能回复文字，高级的还能生成图片或语音。
+			- 代表：GPT-4o、DeepSeek网页识图版、Google Gemini。
+	- ## 按“内部怎么算”划分：混合模型（MoE）
+		- 这里的“混合”通常指**混合专家模型（MoE，Mixture of Experts）**。它不关心数据类型，只关心**计算效率**。
+		- **传统密集模型（Dense）**：处理任何问题时，模型里的**所有参数**都会一起工作（被激活）。这就像请一个全能专家，不管大事小事，他都得全身心投入。
+		- **混合专家模型（MoE）**：模型里有多个“专家模块”。处理任务时，系统会判断这个问题属于哪一类，然后**只激活最擅长的那几位专家**，其他专家保持静默。
+			- 优点：总参数可能很大（如万亿级别），但实际运算量小，速度快，成本低。
+			- 代表：DeepSeek-V4（总参数2840亿，但激活仅130亿）、GPT-5.6（MoE架构）、LongCat-2.0。
+- # 模型对比
+	- [AIHOT大模型排行榜](https://aihot.virxact.com/leaderboard)
+		- [我花了54个小时，做了一个可能更公平的AI大模型排行榜。](https://mp.weixin.qq.com/s/8FYDOX15UKOHPkbHjRpnbg)
+	- [GLM 5.2 vs Opus 4.8 vs GPT 5.5](https://mp.weixin.qq.com/s/lBeb-0DcuB82FI6E2NpOdg)
+	- [在百度千帆 TokenPlan 一口气测完DeepSeek、GLM、Kimi、ERNIE，同一任务谁更强？](https://mp.weixin.qq.com/s/ypEqcKe78B8N3BXcEIbmfg)
+	- [GLM-5.2、Qwen3.7-Plus、DeepSeek-V4-Pro、MiniMax-M3、Kimi-K2.7深度测评，结果出乎意料](https://mp.weixin.qq.com/s/XTzMp5BmR2wwQ3Ko07pnNA) #GLM-5.2 #Qwen3.7-plus #DeepSeek-V4-Pro #MiniMax-M3 #Kimi-K2.7
+	-
+- # [[新闻/动态]]
+	- [一夜之间，DeepSeek V4 Pro和Grok 4.6把全球大模型推入了新的斩杀线。](https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685175&idx=1&sn=64c383b5b757945397894270c5f38301&poc_token=HGwRfWqjqXyjkgXo81PQ5wkV-39zYBcSI4ElRRR-) [[DeepSeek-V4-Pro]] [[Grok 4.6]]

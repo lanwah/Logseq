@@ -2,9 +2,11 @@ tags:: 知识库
 
 - # 想法
 	- {{query #ideas}}
+	  query-table:: false
 -
 - # 思考
 	- {{query #thoughts}}
+	  query-table:: false
 -
 - # 网上不错的内容
 	- {{query #pearls}}

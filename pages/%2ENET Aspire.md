@@ -1,0 +1,39 @@
+tags:: #.NET #Aspire
+
+- # 介绍
+	- `.NET Aspire` 是微软推出的一套专门用于构建 **云原生（Cloud-Native）分布式应用** 的开发栈。可以把它看作一个“开发工具包”和“控制中心”，目标是通过提供一套标准化的工具、模板和NuGet包，来简化分布式系统的开发、调试和部署过程。
+	- `.NET Aspire` 是一套旨在**彻底改变 .NET 开发者构建云原生应用体验**的技术栈。它通过“应用编排”这个核心思想，将分散的服务、资源和配置统一管理起来，并辅以强大的本地开发工具和可视化仪表板，极大地降低了构建、运行和调试分布式系统的门槛。
+	- 它既适用于从零开始的新项目，也可以逐步集成到现有的应用中。对于希望采用微服务架构的 .NET 团队来说，`.NET Aspire` 是一个值得重点学习和评估的工具。
+	- ## 🎯 它解决了什么问题？
+		- 在开发由多个微服务、数据库、缓存等组成的分布式应用时，通常会遇到以下痛点：
+			- **环境配置繁琐**：每个开发者的机器都需要进行复杂的设置[](https://www.coherentsolutions.com/insights/dot-net-aspire-modern-solution-for-dot-net-apps)。
+			- **启动流程复杂**：需要按特定顺序手动启动多个服务，极易出错[](https://www.coherentsolutions.com/insights/dot-net-aspire-modern-solution-for-dot-net-apps)。
+			- **服务间调用混乱**：常使用硬编码的URL，环境切换时容易出错[](https://www.coherentsolutions.com/insights/dot-net-aspire-modern-solution-for-dot-net-apps)。
+			- **调试和监控困难**：日志和追踪信息分散在各处，难以定位问题[](https://www.coherentsolutions.com/insights/dot-net-aspire-modern-solution-for-dot-net-apps)。
+		- `.NET Aspire` 正是为了解决这些痛点而生。
+	- ## 🧩 核心功能：它由什么组成？
+		- `.NET Aspire` 通过以下五个主要方面解决了分布式应用的开发难题：
+			- **应用编排 (Orchestration)**：这是 `.NET Aspire` 的核心。它允许开发者通过 C# 代码（或在最新的 TypeScript 预览版中[](https://www.infoq.com/news/2026/04/aspire-13-2-release/?topicPageSponsorship=b51f2cc5-a9fa-465d-9d74-9cf8aa5aad81)）来 **“声明”** 整个应用所需的全部资源[](https://www.coherentsolutions.com/insights/dot-net-aspire-modern-solution-for-dot-net-apps)。
+				- **统一模型**：在一个“应用主机 (AppHost)”项目中，描述所有服务、数据库、缓存、容器等的依赖和连接关系[](https://www.coherentsolutions.com/insights/dot-net-aspire-modern-solution-for-dot-net-apps)。
+				- **一键启动**：只需一个命令 (`aspire run`)，就能按正确顺序启动所有服务及其依赖项[](https://www.infoq.com/news/2026/04/aspire-13-2-release/?topicPageSponsorship=b51f2cc5-a9fa-465d-9d74-9cf8aa5aad81)。
+				- **本地开发体验**：特别针对本地开发环境进行了优化，让你能在自己的电脑上轻松运行整个复杂的系统。
+			- **集成组件 (Components)**：提供了一系列预置的 NuGet 包，用于与 Redis、PostgreSQL 等常见服务集成。开发者只需调用 `AddRedis`、`AddPostgres` 等标准化方法，即可轻松接入并使用这些服务[](https://www.coherentsolutions.com/insights/dot-net-aspire-modern-solution-for-dot-net-apps)。
+			- **服务发现 (Service Discovery)**：服务之间通过逻辑名称（如 `catalogservice`）而非物理 IP 或端口进行通信[](https://www.coherentsolutions.com/insights/dot-net-aspire-modern-solution-for-dot-net-apps)。`Aspire` 会自动处理服务发现、连接字符串和网络配置的注入，简化了配置管理。
+			- **默认服务 (Service Defaults)**：为每个服务自动配置了标准的 **健康检查 (Health Checks)**、**遥测 (Telemetry)** 和**弹性 HTTP 客户端**，可开箱即用地快速构建生产就绪的服务[](https://www.coherentsolutions.com/insights/dot-net-aspire-modern-solution-for-dot-net-apps)。
+			- **可视化仪表板 (Dashboard)**：一个强大的 Web UI，提供正在运行的应用的统一视图[](https://www.coherentsolutions.com/insights/dot-net-aspire-modern-solution-for-dot-net-apps)。
+				- **结构可视化**：以图形方式展示所有服务及其依赖关系[](https://www.coherentsolutions.com/insights/dot-net-aspire-modern-solution-for-dot-net-apps)。
+				- **集中监控**：在一个界面中集中查看所有服务的日志、分布式追踪 (Traces) 和健康状态[](https://www.coherentsolutions.com/insights/dot-net-aspire-modern-solution-for-dot-net-apps)。
+	- ## 📦 如何开始使用？
+		- 开始使用 `.NET Aspire` 非常简单，主要通过以下工具：
+			- **项目模板 (Templates)**：通过 `dotnet new` 命令可以快速创建包含了 `.NET Aspire` 基础结构的解决方案。
+			- **CLI 工具**：支持 `aspire new`（创建新应用）、`aspire init`（初始化现有代码）、`aspire run`（运行应用）等命令[](https://www.infoq.com/news/2026/04/aspire-13-2-release/?topicPageSponsorship=b51f2cc5-a9fa-465d-9d74-9cf8aa5aad81)。
+			- **IDE 集成**：与 **Visual Studio**、**Visual Studio Code** 等主流 IDE 深度集成，提供了图形化的管理界面。
+	- ## 🚀 最新发展与未来
+		- `.NET Aspire` 本身也在快速演进，值得关注的最新动态包括：
+			- **更名与定位**：该项目已正式从 “.NET Aspire” 更名为 “**Aspire**”，标志着它不再局限于 .NET，目标是成为一个支持 **多语言** 的云原生应用平台。
+			- **支持 TypeScript**：在最新的 **13.2** 版本中，已经可以用 TypeScript 来定义应用资源[](https://www.infoq.com/news/2026/04/aspire-13-2-release/?topicPageSponsorship=b51f2cc5-a9fa-465d-9d74-9cf8aa5aad81)。
+			- **更强的 CLI**：CLI 工具功能持续增强，支持后台运行 (`detached mode`)、应用实例管理等[](https://www.infoq.com/news/2026/04/aspire-13-2-release/?topicPageSponsorship=b51f2cc5-a9fa-465d-9d74-9cf8aa5aad81)。
+			- **仪表板升级**：仪表板功能不断增加，如支持导入/导出遥测数据、环境变量等[](https://www.infoq.com/news/2026/04/aspire-13-2-release/?topicPageSponsorship=b51f2cc5-a9fa-465d-9d74-9cf8aa5aad81)。
+- # 相关参考
+	- [What's New in Aspire 13.3 | Aspire Blog](https://devblogs.microsoft.com/aspire/whats-new-aspire-13-3/)
+		- > Aspire 13.3 聚焦 AppHost、CLI、Dashboard、Kubernetes/AKS 部署、浏览器日志和命令结果等体验改进。本次版本对本地分布式应用编排、云原生部署链路以及开发者诊断体验都有增强，适合关注 .NET Aspire、微服务本地开发和云部署一体化的团队跟进。

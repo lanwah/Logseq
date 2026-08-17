@@ -13,6 +13,9 @@ tags:: AI
 	  **目标驱动**：定义成功标准，写测试验证，循环直到通过
 - # 自定义技能
 	- [[code-downloader]]
+- # 杂谈
+	- [一个Skill卖了40万？](https://mp.weixin.qq.com/s/NpX2ljTt9_VifJeJtksJOQ)
+-
 - # 相关参考
 	- ((6a4b0330-5e04-40ca-bf11-32c805c64fd1))
 	- ((6a6445b4-342e-462e-a714-dd027cc69568))

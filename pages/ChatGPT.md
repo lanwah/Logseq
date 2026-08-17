@@ -1,4 +1,4 @@
-tags:: #OPenAI
+tags:: #OPenAI, #Agent, #Codex
 
 - # 相关介绍
 	- 2026-07-10 Codex直接消失，与ChatGPT应用正式合并，以后，也没有Codex这个应用了，只有**ChatGPT**了。

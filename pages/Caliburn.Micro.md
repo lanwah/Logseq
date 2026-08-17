@@ -1,0 +1,29 @@
+tags:: #.NET #MVVM
+
+- # 开源信息
+	- **开源平台：** #GitHub
+	- **项目名称：** #Caliburn.Micro
+	- **使用协议：** [[MIT license]]
+	- **开源地址：** https://github.com/Caliburn-Micro/Caliburn.Micro
+	- **开发语言：** C# 100%
+- # 项目介绍
+	- Caliburn.Micro 是一个小巧但功能很强的框架，用来开发各种 XAML 平台上的应用，基于 MIT license 开源。它对 MVVM 和其他常见界面开发模式支持很好，能帮助你更快地开发程序，同时又不影响代码质量和可测试性。
+	- **Caliburn.Micro 并非只适用于 WPF 项目**。它是一个为**所有 XAML 平台**设计的 MVVM 框架[](https://github.com/Caliburn-Micro/Caliburn.Micro)，其设计目标就是跨平台。
+	- 它的核心是一个与平台无关的 .NET Standard 类库 (`Caliburn.Micro.Core`)[](https://github.com/Caliburn-Micro/Caliburn.Micro)，针对不同 UI 框架提供独立的适配包[](https://github.com/Caliburn-Micro/Caliburn.Micro)。
+	- ## 📱 支持的平台与框架
+		- Caliburn.Micro 通过不同的 NuGet 包支持以下 XAML 平台：
+			- **WPF**：传统的 Windows 桌面应用框架。
+			- **UWP**：通用 Windows 平台应用。
+			- **WinUI 3**：现代 Windows 原生应用框架。
+			- **.NET MAUI**：.NET 多平台应用 UI 框架[](https://github.com/Caliburn-Micro/Caliburn.Micro)。
+			- **Avalonia UI**：跨平台 UI 框架[](https://github.com/Caliburn-Micro/Caliburn.Micro)。
+			- **Xamarin.Forms**：跨平台移动应用框架[](https://github.com/Caliburn-Micro/Caliburn.Micro)。
+			- **Uno Platform**：计划在 V6 版本中提供支持。
+	- ## 🎯 核心功能与特点
+		- **MVVM 模式**：帮助实现 **Model-View-ViewModel** 设计模式，分离界面与业务逻辑。
+		- **约定优于配置**：通过**命名约定**自动绑定，如将 `MainPage` 自动匹配 `MainPageViewModel`，减少样板代码。
+		- **精简高效**：框架本身非常轻量，核心代码量仅约 2700 行。
+		- **高可测试性**：通过 MVVM 模式使业务逻辑与 UI 分离，便于单元测试[](https://github.com/Caliburn-Micro/Caliburn.Micro)。
+		- **成熟稳定**：一个长期维护、在 WPF 等领域有深厚积累的框架。
+- # 相关参考
+	- ((6a01d39f-3fb0-4e54-98ae-649071298829))

@@ -23,8 +23,14 @@ tags:: #DeepSeek, #LLM
 			  ![image.png](../assets/image_1779238711194_0.png){:height 326, :width 687}
 			  修改后：
 			  ![image.png](../assets/image_1779238742383_0.png)
+- # LLM版本
+	- [[DeepSeek-V4-Pro]]
+		- ((6a7d7253-a393-48f4-8d0f-10cf4595180a))
 - # 动态
+	- [深夜放大招！DeepSeek V4 Pro 正式版 API 更新上线，多项测试性能接近 Fable 5 - IT之家](https://www.ithome.com/0/989/000.htm)
+	  id:: 6a7d7253-a393-48f4-8d0f-10cf4595180a
 	- [DeepSeek-V4 预览版：迈入百万上下文普惠时代](https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg)
+	- [聊聊DeepSeek V4正式版，真正的智能平权。](https://mp.weixin.qq.com/s/6d_2gn2jK3lVTJaeookHkA) #Codex #ChatGPT
 - # 相关参考
 	- [首次调用 API | DeepSeek API Docs](https://api-docs.deepseek.com/zh-cn/)
 	  id:: 9290db11-7195-4954-9e85-f4a550afa21d
@@ -36,5 +42,7 @@ tags:: #DeepSeek, #LLM
 	  id:: 13251b1b-44d2-4ba3-a894-d2dce754d522
 	- [接入 Agent 工具 | DeepSeek API Docs](https://api-docs.deepseek.com/zh-cn/guides/coding_agents)
 	  id:: 26137ce1-7019-4933-b13e-26ffe35ea853
+	- **混合模型**
+		- [DeepSeek“开眼”背后的技术，公开了！ - 智东西](https://zhidx.com/p/555086.html)
 -
 -

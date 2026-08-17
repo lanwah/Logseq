@@ -1,4 +1,4 @@
-tags:: AI, AI Agent，软件工具, #Anthropic 
+tags:: AI, #Agent ，软件工具, #Anthropic 
 category:: 软件工具
 
 - 什么是 Claude Code？
@@ -69,6 +69,9 @@ category:: 软件工具
 	  id:: 69ecc009-18a8-4d71-b32c-5af845b79a08
 	- ## 使用技巧
 		- [Claude Code 装了个总控台 · Agent View 让我成了 AI 监工](https://mp.weixin.qq.com/s/jkSh1innfD5xC9WFLLIA4g) #tmux
+		- [打造简洁清晰的 Claude Code 状态栏](https://mp.weixin.qq.com/s/oPDX1AhMOkL3abv66zsXSw)
+	- ## 接入
+		- [Claude 被封后，我用几分钟把 gpt-5.6-sol 接进了 Claude Code](https://mp.weixin.qq.com/s/2HWi1Qrmkg8RAfu18UWmmQ?poc_token=HI30bmqjVJ0h0l8NpgOLq0gsN1msqcJ8nBwRGTBE)
 -
 - # Claude Code 学习
 	- Git：[lhfer/claude-howto-zh-cn](https://github.com/lhfer/claude-howto-zh-cn)
@@ -114,6 +117,9 @@ category:: 软件工具
 - # 学习推荐网站
 	- ((6a1f7871-72ee-4555-8881-d33a172adb19))
 - # 新闻/动态
+	- [Claude in Chrome 侧边栏升级为 Claude Cowork 会话 · AIHOT](https://aihot.virxact.com/items/cmsqj4ly004izroxvzl349s3r) #Chrome
+	- [Claude Code 自动模式默认开启原理 · AIHOT](https://aihot.virxact.com/items/cmsnfpcwf05ecrohfuzbjwyar)
+	- [Claude Code 会话间可互发消息 · AI HOT](https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl)
 	- [Think through hard problems in voice mode | Claude by Anthropic](https://claude.com/blog/think-through-hard-problems-in-voice-mode)
 		- [Claude 语音模式现已支持 Opus、Sonnet 及连接工具与多语言 · AI HOT](https://aihot.virxact.com/items/cmrxxl53u03q5roxp15huqnni)
 -

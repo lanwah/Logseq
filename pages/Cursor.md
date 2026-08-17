@@ -31,6 +31,9 @@ category:: AI编程工具
 	  |Ctrl + M, Ctrl + S|打开键盘快捷键|
 	  |Ctrl + T|新建聊天窗口|
 	  |Ctrl + F4|关闭聊天窗口|
+	  |F2|切换到Ask模式|
+	  |F3|切换到Plan模式|
+	  |F4|切换到Agent模式|
 - # 授权
 	- ## 全局配置
 		- 用户目录下：.cursor\cli-config.json
@@ -160,7 +163,9 @@ category:: AI编程工具
 	  ```
 	- CLI 会读取 .cursor/rules、AGENTS.md、mcp.json，与 IDE 行为一致。
 - # 新闻/动态
-	- 1
+	- [Cursor 正式并入 SpaceXAI 助力 Grok · AIHOT](https://aihot.virxact.com/items/cmssyoxc90mssroff4k237ysa) #SpaceXAI
+	- [Cursor 推出 builds：云智能体启动速度提升至 3 倍 · AIHOT](https://aihot.virxact.com/items/cmsruj6ik02dfrozeclkuve05)
+	- [介绍 Grok 4.6 · Cursor](https://cursor.com/cn/blog/grok-4-6) [[Grok 4.6]]
 	- ## 思考
 		- [我取消了 Cursor 订阅，不是因为它不好，而是我的 AI 工作流变了](https://mp.weixin.qq.com/s/tHcHBcyHAB_zRzD7fg0W8g)
 - # 问题

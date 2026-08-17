@@ -1,8 +1,11 @@
 public:: true
 tags:: 桌面应用程序
 
+- # [[官方网站]]
+	- [适用于 .NET 的 Windows 窗体文档 | Microsoft Learn](https://learn.microsoft.com/zh-cn/dotnet/desktop/winforms/)
 - # 使用示例
 	- ## 控件使用
+		- [WinForms 父子窗体数据传递的进化之路：从参数注入到事件回传的完美闭环](https://mp.weixin.qq.com/s/zHVa7zyU4bzmDWMCNoONcg)
 		- [Winform TabControl 选项卡控件高级用法：从默认样式到企业级多页签架构](https://mp.weixin.qq.com/s/tAg5O9bbfbi6bU_eO1-yOw)
 		- [Winform ToolStrip 工具栏定制化开发：从系统默认到企业级 UI 的完整实践](https://mp.weixin.qq.com/s/5YumXBKq7pZLH9HTwwL4Xg)
 		- [C# Winform MenuStrip 菜单栏的动态创建](https://mp.weixin.qq.com/s/Ou7l-baHHmm4ogY9ubn32g)
@@ -10,6 +13,7 @@ tags:: 桌面应用程序
 		- [Winform ContextMenuStrip 右键菜单实现：从基础到工程级封装](https://mp.weixin.qq.com/s/OufZsX_KI4W43LQbWS6aBA)
 		- [C# WinForm PictureBox 图片显示与处理：从入门到实战](https://mp.weixin.qq.com/s/F0cb8wZdv5RJNkuc-_QqQA)
 		- [基于.NET的Windows窗体编程之WinForms数据表格](https://mp.weixin.qq.com/s/XaWh1X8I82yX4AC8TRKjeQ)
+		- [WinForms Label 标签控件的自动换行与样式深度指南](https://mp.weixin.qq.com/s/huSdyrFfHx8ZKCuBZ0Ipzg)
 	- ## 打印
 		- [基于 .NET 的 Windows 窗体编程之 WinForms 打印](https://mp.weixin.qq.com/s/3FyewqwUKDp-wLQMa7pHjw)
 	- ## [[图表]]
@@ -24,6 +28,7 @@ tags:: 桌面应用程序
 		- ((6a64c2de-05ac-44b0-94e0-66cbf0ef1f1c))
 		- [CommunityToolkit.Mvvm × 工业WinForm 的 Messenger 消息总线初探](https://mp.weixin.qq.com/s/7id_Ia1oYGxgedfT4LClMw) #CommunityToolkit.Mvvm
 		- ((6a600ed6-afa4-493a-b3d5-80d30fe4eddf))
+		- [CommunityToolkit.Mvvm × 工业WinForm Modbus RTU 串口通信：ObservableProperty 实时刷新寄存器值](https://mp.weixin.qq.com/s/w0hbenAloPVwVILcXHeCug) #CommunityToolkit.Mvvm
 	-
 	- # 相关参考
 		- ## MVVM

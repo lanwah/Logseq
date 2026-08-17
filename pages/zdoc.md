@@ -1,0 +1,32 @@
+tags:: #GitHub, #翻译
+
+- # 开源信息
+	- **开源平台：** #GitHub
+	- **项目名称：** #zdoc
+	- **使用协议：** [[MIT license]]
+	- **开源地址：** https://github.com/o7z/zdoc
+	- **开发语言：** TypeScript 63.3%+JavaScript 22.7%+Svelte 11.5%+CSS 2.4%+HTML 0.1%
+- # 项目介绍
+	- **@o7z/zdoc** 是一个“零配置”的 Markdown 文档服务器。你只需把它指向一个包含 Markdown (`.md`) 文件的文件夹，它就能自动生成一个功能完整的静态文档站[](https://github.com/o7z/zdoc)。
+	- 项目的核心设计理念围绕“约定优于配置”展开，通过一套简单的文件结构约定（主要是 `_meta.yaml` 文件）来驱动文档的呈现，从而免去了复杂的配置过程[](https://github.com/o7z/zdoc)。
+- # 关联软件
+	- ## zdoc.app
+		- ### 访问地址
+			- [zdoc | 一个免费的工具，可将 GitHub 的 README 翻译成多种语言，并保持同步。](https://www.zdoc.app/zh)
+		- ### 介绍
+			- 一个免费的工具，可将 GitHub 的 README 翻译成多种语言，并保持同步。
+			- `zdoc` 这个名字关联着两个定位完全不同的开源项目，一个是**在线翻译服务**，另一个是**本地文档站生成工具**。
+		- ### zdoc.app：README 在线翻译工具
+			- 这是你在浏览器中访问 `https://www.zdoc.app/zh` 时看到的服务[](https://www.zdoc.app/zh)[](https://www.zdoc.app/zh)。
+			- **核心功能**：一个**免费**的在线工具，能自动将 GitHub 仓库的 `README.md` 文件翻译成多种语言并保持同步[](https://www.zdoc.app/zh)。
+			- **支持语言**：包括中文、英语、日语、韩语、法语、德语等 9 种语言[](https://ysgdaydayup.blog.csdn.net/article/details/159618584)。
+			- **使用方式**：你只需在网站上输入目标 GitHub 仓库的地址，它就能快速生成翻译后的 README 文件供你下载[](https://ysgdaydayup.blog.csdn.net/article/details/159618584)。
+			- **CLI 工具**：除了网站，它还提供一个基于 OpenAI 的命令行工具（CLI），可用于批量翻译 Markdown 文件[](https://www.npmjs.com/~zdoc.app?activeTab=packages)。
+		- ### @o7z/zdoc：零配置的 Markdown 文档站
+			- 这是一个在 GitHub 上开源的项目（`o7z/zdoc`），可以把它想象成一个“**文档网站生成器**”。
+			- **核心功能**：实现“零配置”生成文档网站。你只需把它指向一个存放 Markdown (`.md`) 文件的文件夹，它就能自动生成一个功能完整的静态文档站。
+			- **主要特性**：
+				- **自动生成侧边栏和目录**：根据文件夹结构自动生成导航。
+				- **丰富的内置功能**：支持 Mermaid 图表、代码高亮、暗色模式、全文搜索（Ctrl+K）。
+				- **内容导出**：支持将文档渲染为 PDF，或打包成 ZIP 文件下载。
+-

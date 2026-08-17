@@ -1,4 +1,4 @@
-tags:: #Agent, #xAI, #SpaceXAI
+tags:: #Agent, #SpaceXAI, #SpaceXAI
 
 - # 开源信息
 	- **开源平台：** [[GitHub]]

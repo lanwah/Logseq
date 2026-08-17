@@ -14,3 +14,4 @@ tags:: #AI
 - # 相关参考
 	- [提示词工程已死，Loop Engineering来了！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247723482&idx=1&sn=52522523fc778c878f71c1d9061535e3&scene=21&poc_token=HDGHXGqjbm67xPbdhRMo0ImD2N3RCyIFr6gbotyN)
 	- [重磅！Loop Engineering 实操手册公开](https://mp.weixin.qq.com/s/kICrdEkPCYAiyOiwI-Gt1Q)
+	- [教你让 Claude Code 在你睡觉时继续干活！](https://mp.weixin.qq.com/s/AmU1VxA2_1plRH0BCRudMw) #[[Claude Code]]

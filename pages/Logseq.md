@@ -107,6 +107,11 @@ category:: 软件工具
 	  |Markdown Table Editor|Markdown表格插件|
 	  |Tags|标签插件|
 	  |Bullet Threading|标题连线插件|
+	  |logseq-plugin-agenda|全能型日程管理插件|
+		- **logseq-plugin-agenda**
+			- https://github.com/haydenull/logseq-plugin-agenda/
+			- [heart\_cloud/logseq-plugin-agenda](https://gitee.com/heart_cloud/logseq-plugin-agenda)
+			- [haydenull/logseq-plugin-agenda | DeepWiki](https://deepwiki.com/haydenull/logseq-plugin-agenda/1-overview)
 -
 - # 使用参考
 	- [Logseq本地部署完整指南：轻松搭建个人知识库系统 | WMW](https://watermelonwater.tech/insights/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2logseq%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93/)

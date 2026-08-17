@@ -1,0 +1,28 @@
+tags:: #.NET #自动更新/升级
+
+- # 介绍
+	- **ClickOnce** 是微软推出的一项 Windows 桌面应用部署技术，它的核心优势在于能为 WinForms、WPF 等客户端应用提供强大且便捷的**自动更新**功能[](https://mintlify.wiki/anandstays-creator/clicknlearn/dotnet/deployment)。
+	- 简单来说，开发者只需将应用发布到服务器或网络共享文件夹，用户首次安装后，应用便会自动在后台检查并安装更新，大大简化了应用程序的分发和升级流程。
+	- ClickOnce 是一项成熟、易用的技术，尤其适合需要为 WinForms 或 WPF 等传统 Windows 桌面应用提供自动更新功能的场景。它通过清单文件和增量下载，简化了应用分发的复杂性。
+	- 不过，在选择时也需注意：如果你开发的是 **.NET Core/.NET 5+** 的新项目，其更新策略会受到限制；而如果你的目标是 **UWP** 或 **Windows App SDK** 应用，则需要寻找其他的部署方案。
+	- ## ✅ 广泛的应用类型支持
+		- ClickOnce 并非只支持特定的 UI 框架，它主要面向的是 **Windows 桌面客户端应用**。具体来说，它支持以下类型的项目：
+			- **Windows Forms (WinForms) 应用**：这是 ClickOnce 最早和最经典的应用场景。
+			- **Windows Presentation Foundation (WPF) 应用**：同样得到了微软的完整支持。
+			- **控制台应用程序 (Console Application)**：虽然不常见，但控制台应用同样可以通过 ClickOnce 部署和更新。
+			- **Office 解决方案**：支持部署某些 Office 相关的解决方案（.dll）。
+			- **Visual C++ 应用**：也支持通过 ClickOnce 进行部署。
+		- > **注意**：ClickOnce 主要针对的是经典的 .NET Framework 和 .NET (Core) 桌面应用。它**不支持**为通用 Windows 平台 (UWP) 应用或更现代的 Windows App SDK 应用提供部署和自动更新服务。
+	- ## ⚙️ 自动更新工作原理
+		- ClickOnce 的自动更新机制对用户和开发者都相当透明。
+			- **核心是“清单文件”**：ClickOnce 部署依赖于两个 XML 清单文件：**应用程序清单** (`.manifest`) 和**部署清单** (`.application`)[](https://cloud.tencent.cn/developer/information/ClickOnce%20appref.ms%E5%8F%82%E6%95%B0)。部署清单中包含了应用从哪里更新、何时检查更新等关键信息[](https://cloud.tencent.cn/developer/information/ClickOnce%20appref.ms%E5%8F%82%E6%95%B0)。
+			- **定期轮询检查**：ClickOnce 应用会按照预设的策略，定期读取服务器上的部署清单文件。
+			- **增量下载（文件修补）**：当检测到新版本时，ClickOnce 不会下载整个应用，而是使用**文件修补（File Patching）** 技术，只下载有变更的文件，大大提高了更新效率。
+	- ## 🚀 灵活的更新策略
+		- 你可以根据应用场景，选择不同的更新检查策略：
+			- **启动前检查（默认）**：应用启动前检查更新。如果有更新，必须安装后才能运行。
+			- **启动后检查（后台）**：应用启动后，在后台线程中静默检查。如果发现更新，会在下次启动时提示用户安装。此策略适合大型应用，避免启动延迟。
+			- **编程方式检查**：通过 `System.Deployment.Application` 命名空间下的 `ApplicationDeployment` 类，在代码中自定义更新逻辑[](https://mintlify.wiki/anandstays-creator/clicknlearn/dotnet/deployment)。你可以完全控制检查、下载和安装的时机。
+		- > **关键限制**：对于 **.NET Core 3.1、.NET 5 及更高版本**的应用，目前**仅支持“启动前检查”** 这一种更新策略。这意味着在这些新框架下，“启动后检查”和“编程方式”的更新选项将不可用。
+- # 官方网站
+	- [ClickOnce 部署和安全性 - Visual Studio (Windows) | Microsoft Learn](https://learn.microsoft.com/zh-cn/visualstudio/deployment/clickonce-security-and-deployment?view=vs-2022)

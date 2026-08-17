@@ -1,0 +1,35 @@
+tags:: #[[API 开发工具]]
+
+- # 介绍
+	- **Swagger** 是一套功能强大的开源工具集，用于帮助开发者设计、构建、文档化和测试 [[RESTful API]][](https://apifox.com/apiskills/what-is-swagger/?spm=a2c6h.13046898.publish-article.16.240b6ffayRQXEU&utm_source=opr&utm_medium=a2bobzhang)。它已成为全球最流行的 API 开发工具之一。
+	- Swagger 已成为 API 开发领域的事实标准。它通过将 API 描述标准化（OpenAPI）并围绕其构建强大的工具集，极大地简化了 API 的设计、文档化、测试和消费过程，是任何 RESTful API 开发者的必备利器。
+	- ## 📜 Swagger 与 OpenAPI：一段历史
+		- 理解 Swagger，首先需要分清它和 **OpenAPI** 的区别[](https://apifox.com/apiskills/openapi-vs-swagger/)。
+			- **起源**：Swagger 于 2010 年由 Tony Tam 创建，最初既指 API 描述规范，也指围绕该规范的工具[](https://apifox.com/apiskills/openapi-vs-swagger/)。
+			- **演进**：2015 年，Swagger 规范被捐赠给 Linux 基金会，并更名为 **OpenAPI 规范（OAS）**[](https://apifox.com/apiskills/openapi-vs-swagger/)。
+			- **现状**：如今两者分工明确[](https://apifox.com/apiskills/openapi-vs-swagger/)：
+				- **OpenAPI** 是**规范**本身，定义了描述 REST API 的标准格式（YAML/JSON）。
+				- **Swagger** 是**工具集**，指那些基于 OpenAPI 规范工作的开源及商业工具[](https://apifox.com/apiskills/openapi-vs-swagger/)。
+			- **简单来说**：OpenAPI 是“蓝图”标准，而 Swagger 是基于这套标准打造的一系列“施工工具”。
+	- ## 🛠️ Swagger 核心工具集
+		- Swagger 工具集提供了一整套围绕 API 生命周期的解决方案，核心工具包括:
+			- **Swagger UI**：最广为人知的工具，能将 OpenAPI 规范文件渲染成交互式的 API 文档。开发者可以直接在浏览器中浏览所有 API 端点，并**在线发送请求进行测试**，无需其他客户端[](https://swagger.org.cn/docs/specification/2-0/what-is-swagger/)[](https://apifox.com/apiskills/what-is-swagger/?spm=a2c6h.13046898.publish-article.16.240b6ffayRQXEU&utm_source=opr&utm_medium=a2bobzhang)[](https://cloud.baidu.com/article/3319053)。
+			- **Swagger Editor**：一个基于浏览器的编辑器，用于编写和实时验证 OpenAPI 规范。它提供语法高亮、自动补全和实时错误反馈[](https://apifox.com/apiskills/what-is-swagger/?spm=a2c6h.13046898.publish-article.16.240b6ffayRQXEU&utm_source=opr&utm_medium=a2bobzhang)。
+			- **Swagger Codegen**：一个代码生成器，能从 OpenAPI 规范文件自动生成**40 多种语言**的**客户端 SDK** 和**服务器端桩代码（Stub）**[](https://swagger.org.cn/docs/specification/2-0/what-is-swagger/)。这能大大减少重复的接入工作，让前后端可以并行开发[](https://apifox.com/apiskills/what-is-swagger/?spm=a2c6h.13046898.publish-article.16.240b6ffayRQXEU&utm_source=opr&utm_medium=a2bobzhang)。
+		- ## ⚙️ 工作原理：代码即文档
+			- Swagger 的核心思想是 **“代码即文档”**。它通过以下方式消除文档与代码的脱节：
+				- **定义规范**：开发者通过代码注解或在 YAML/JSON 文件中编写 OpenAPI 规范，以机器可读的格式描述 API 的结构[](https://swagger.org.cn/docs/specification/2-0/what-is-swagger/)[](https://cloud.baidu.com/article/3319053)。
+				- **自动生成**：Swagger 工具（如 Swagger UI）会读取这个规范文件，自动生成结构清晰、可交互的 HTML 文档。
+				- **保持同步**：API 代码变更时，只需同步更新规范文件，文档即可自动更新，确保 **“文档即代码，代码即文档”**。
+		- ## 🚀 主要优势与价值
+			- **提升开发效率**：自动生成文档和代码，减少手动编写和维护的时间[](https://apifox.com/apiskills/what-is-swagger/?spm=a2c6h.13046898.publish-article.16.240b6ffayRQXEU&utm_source=opr&utm_medium=a2bobzhang)。
+			- **改善协作沟通**：提供清晰、可交互的文档，成为团队间（前端、后端、测试、产品）的通用语言。
+			- **保证文档质量**：文档由规范自动生成，避免了手动更新导致的错漏，保持与代码的高度一致。
+			- **支持 API 优先设计**：支持“设计优先”（Design First）的开发模式，先设计 API 规范，再生成代码框架，确保设计质量[](https://swagger.org.cn/docs/specification/2-0/what-is-swagger/)。
+		- ## 💻 在 .NET 生态中的使用
+			- 在 .NET 中，主要通过两个库将 Swagger/OpenAPI 集成到 [ASP.NET](https://asp.net/) Core 项目中：
+				- **Swashbuckle**：最流行的选择，能无缝集成 Swagger UI，并利用 XML 注释生成文档。
+				- **NSwag**：功能更丰富，不仅能生成文档和 UI，还能直接生成 TypeScript 等语言的客户端代码。
+			- 简单来说，集成后启动项目，访问 `/swagger` 路径即可看到自动生成的交互式 API 文档。当 API 代码变化时，文档也能同步更新。
+- # 相关参考
+	- [C# SwaggerLoginAuthPlugin 一款给Swagger文档加登录页面的小插件 - 柠檬苏打z - 博客园](https://www.cnblogs.com/zhangboyan/p/20001532)
